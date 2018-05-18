@@ -1,0 +1,2954 @@
+<html 
+
+<head>
+
+<head>
+<title>**SITES** -- DNA POLYMORPHISM ANALYSIS PROGRAM -- </title>
+
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-alt:"\FF2D\FF33 \660E\671D";
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"MS Mincho";
+	mso-font-kerning:0pt;}
+h3
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:13.0pt;
+	font-family:Arial;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+p.SITESHTMLSECTION, li.SITESHTMLSECTION, div.SITESHTMLSECTION
+	{mso-style-name:"SITES HTML SECTION";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:13.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 65.95pt 72.0pt 65.95pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:211116254;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-648896318 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:321394806;
+	mso-list-type:hybrid;
+	mso-list-template-ids:823017362 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2
+	{mso-list-id:347996733;
+	mso-list-type:hybrid;
+	mso-list-template-ids:390243898 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l3
+	{mso-list-id:469052690;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1728278214 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:66.0pt;
+	mso-level-number-position:left;
+	margin-left:66.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l4
+	{mso-list-id:595602924;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-146105552 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:51.0pt;
+	mso-level-number-position:left;
+	margin-left:51.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l5
+	{mso-list-id:618684836;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-407597496 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l6
+	{mso-list-id:804352113;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-398953594 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l7
+	{mso-list-id:823350717;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-38734328 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l8
+	{mso-list-id:838884500;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1458300866 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l8:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l9
+	{mso-list-id:940264044;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1706231478 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l9:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:54.0pt;
+	mso-level-number-position:left;
+	margin-left:54.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l9:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:90.0pt;
+	mso-level-number-position:left;
+	margin-left:90.0pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l10
+	{mso-list-id:1128544563;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1279062436 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l10:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l10:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l10:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l11
+	{mso-list-id:1488663586;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1533157438 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l11:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l12
+	{mso-list-id:1667249413;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1547973984 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l12:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l12:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l13
+	{mso-list-id:1712421168;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-286643452 67698689 -1240693162 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l13:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l13:level2
+	{mso-level-start-at:2;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"MS Mincho";}
+@list l14
+	{mso-list-id:2050647515;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1893314154 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l14:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l15
+	{mso-list-id:2080323462;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1095705302 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l15:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l15:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<link rel="stylesheet" type="text/css" href="../../../heylab_1.css">
+<meta name="Microsoft Border" content="t, default">
+</head>
+
+<body lang=EN-US style='tab-interval:36.0pt'><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td bgcolor="#EAEAEA">
+<div style="width:1150; height:106; border-top-style:solid; border-top-color:#800000; border-bottom-style:solid; border-bottom-color:#800000">
+<font face="Times New Roman" size="5">&nbsp;&nbsp;&nbsp; Jody 
+Hey&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><i>&nbsp; </i>
+</b></font> <b>
+<font color="#800000" size="5" face="Times New Roman"><span style="font-style: italic">Evolutionary Genetics 
+Laboratory</span></font></b><p><font face="Times New Roman" size="5">
+<dfn style="font-style: normal">&nbsp;Professor&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp;&nbsp; 
+Department of Genetics&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp;&nbsp; Rutgers University </dfn></font></p>
+<p><span style="font-style: italic">
+<font face="Times New Roman" color="#800000">
+<a href="../../../index.html"><img src="../../../_derived/index.html_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Hey Lab" align="middle"></a> <a href="../../../JodyHeyResearchAreas.htm"><img src="../../../_derived/JodyHeyResearchAreas.htm_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Research" align="middle"></a> <a href="../../../JHPapers.htm"><img src="../../../_derived/JHPapers.htm_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Publications" align="middle"></a> <a href="../../../HeylabSoftware.htm"><img src="../../../_derived/HeylabSoftware.htm_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Software, Data" align="middle"></a> <a href="../../../HeylabPeople.htm"><img src="../../../_derived/HeylabPeople.htm_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Contacts, People" align="middle"></a></font></span></p>
+</div>
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><!--msnavigation--><td valign="top">
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>**SITES**
+-- DNA POLYMORPHISM ANALYSIS PROGRAM -- <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>DOCUMENTATION<span
+style="mso-spacerun: yes"> &nbsp; </span></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]></span></p>
+
+<p class=MsoNormal><span style="mso-fareast-font-family: MS Mincho">Jody Hey</span><span style='mso-fareast-font-family:"MS Mincho"'>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Department
+of Genetics<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Rutgers
+University<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Nelson
+Biological Labs<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>604
+Allison Rd.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Piscataway,
+NJ<span style="mso-spacerun: yes">  </span>08854-8082<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>732-445-5272<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>fax
+732-445-5870<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><a href="mailto:hey@biology.rutgers.edu">hey@biology.rutgers.edu</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><a href="../../../index.html">http://lifesci.rutgers.edu/~heylab</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>* This computer program and documentation may
+be freely copied and used by anyone, provided no fee is charged for it.&nbsp;</span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<h3><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span><a name=Contents>Contents<o:p></o:p></a></span></h3>
+
+<span style='mso-bookmark:Contents'></span>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________
+<o:p></o:p></span></p>
+
+<ul>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a
+href="#Overview">Overview</a><o:p></o:p></span></li>
+  <li>
+    <p class="MsoNormal"><a
+href="#FilesinthisPackage"><span style="mso-fareast-font-family: MS Mincho">Downloadable Files</span></a><span style='mso-fareast-font-family:"MS Mincho"'><o:p></o:p></span></li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a
+href="#NewFeatures">New Features</a><o:p></o:p></span></li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a
+href="#Analyses">Analyses</a><o:p></o:p></span>
+    <ul>
+      <li>
+        <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a
+href="#InputFileFormat">Input File Format</a><o:p></o:p></span></li>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho"'><a href="#SITESformat">SITES
+     format</a><o:p></o:p></span></li>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho"'><a href="#SampleSITESFormat">Sample
+     SITES format</a><o:p></o:p></span></li>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho"'><a href="#PHYLIPformats">PHYLIP
+     format</a><o:p></o:p></span></li>
+    </ul>
+  </li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a
+href="#RunningtheProgram">Running the Program</a><o:p></o:p></span></li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a
+href="#Commandlineusage">Command Line Usage</a><o:p></o:p></span>
+    <ul>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho"'><a
+     href="#PrimaryCommandLineFlags">Primary Command Line Flags</a><o:p></o:p></span></li>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho"'><a
+     href="#SecondaryCommandLineFlags">Secondary Command Line Flags</a><o:p></o:p></span></li>
+    </ul>
+  </li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a href="#Menus">Menus</a><o:p></o:p></span>
+    <ul>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho";color:windowtext'><a
+     href="#Sitechoicemenu">Site Choice Menu</a><a href="#Analysischoicemenu"></a></span><span
+     class=MsoHyperlink><span style='mso-fareast-font-family:"MS Mincho"'><o:p></o:p></span></span></li>
+      <li><a
+     href="#Analysischoicemenu"><span style='mso-fareast-font-family:"MS Mincho"'>Analysis
+     Choice Menu</span></a><span style='mso-fareast-font-family:"MS Mincho"'><o:p></o:p></span></li>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho";color:windowtext'><a
+     href="#DataAndOutputOptionsMenu">Data And Output Options Menu</a><a
+     href="#LinkageDisequilibriumOptionsMenu"></a></span><span
+     class=MsoHyperlink><span style='mso-fareast-font-family:"MS Mincho"'><o:p></o:p></span></span></li>
+      <li><a
+     href="#LinkageDisequilibriumOptionsMenu"><span style='mso-fareast-font-family:
+     "MS Mincho"'>Linkage Disequilibrium Options Menu</span></a><span
+     style='mso-fareast-font-family:"MS Mincho"'><o:p></o:p></span></li>
+    </ul>
+  </li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span><a href="#Output">Output</a><o:p></o:p></span>
+    <ul>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho"'><a
+     href="#TableOfPolymorphicSites">Table of Polymorphic Sites</a><o:p></o:p></span></li>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho"'><a href="#CountofSiteTypes">Counts
+     of Site Types</a> <o:p></o:p></span></li>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho"'><a href="#IndelTables">Indel
+     Tables</a><o:p></o:p></span></li>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho"'><a
+     href="#TableofSynonymousReplacementandUnc">Table of Synonymous,
+     Replacement and Uncertain Exon Changes</a> <o:p></o:p></span></li>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho"'><a href="#CodonUsageTable">Codon
+     Usage Table</a> <o:p></o:p></span></li>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho"'><a
+     href="#CodonUsageTableForAllLines">Codon Usage Table For All Lines</a> <o:p></o:p></span></li>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho"'><a href="#PolymorphismAnalyses">Polymorphism
+     Analyses</a> <o:p></o:p></span></li>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho"'><a
+     href="#HistoricalPopulatioModelFitting">Historical Population Model
+     Fitting</a><o:p></o:p></span></li>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho"'><a href="#Recombination">Recombination</a><o:p></o:p></span></li>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho"'><a
+     href="#LinkageDisequilibriumAnalyses">Linkage Disequilibrium Analyses</a><o:p></o:p></span></li>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho"'><a href="#GCContentAnalysis">GC
+     Content Analysis</a><o:p></o:p></span></li>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho"'><a
+     href="#FormattedValuesforInputtoHKAProgra">Formatted Values for Input to
+     HKA Program</a><o:p></o:p></span></li>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho"'><a
+     href="#FormattedValuesforInputtoWHProgram">Formatted Values for Input to
+     WH Program</a><o:p></o:p></span></li>
+    </ul>
+  </li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span><a href="#ProgramLimitations">Program
+Limitations</a><o:p></o:p></span></li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span><a href="#LiteratureCited">Literature Cited</a><o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>______________________<o:p></o:p></span></p>
+
+<h3><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span><a name=Overview>Overview</a> <span
+style='mso-tab-count:1'>   </span><o:p></o:p></span></h3>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal>SITES
+is a computer program for the analysis of comparative DNA sequence data.&nbsp;
+Basic analyses include: data summaries by polymorphism class;&nbsp; polymorphism
+estimates within and between groups (species); estimates of migration, neutral
+model, and recombination parameters; and linkage disequilibrium analyses.&nbsp;
+SITES is primarily intended for data sets with multiple closely related sequences.
+It is especially useful when multiple sequences have been obtained from
+each of one or several closely related populations or species.&nbsp;&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>SITES can
+handle large data sets, and is flexible with regard to the input data.<span style="mso-spacerun:
+yes">  </span>With a few<span style="mso-spacerun: yes">  </span>commands on
+the command line, or in response to menus, one can tailor a particular data set
+in different ways to suit different questions, including working on only a
+subset of the data and regrouping the data.&nbsp;</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>If<span
+style="mso-spacerun: yes">  </span>you find the need to mention the program in
+a publication,<span style="mso-spacerun: yes">  </span>you may cite the
+following<span style="mso-spacerun: yes">  </span>reference which mentions the
+program: <![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Hey, J and
+J. Wakeley. 1997. A coalescent estimator of the population<span
+style="mso-spacerun: yes">  </span>recombination rate.<span
+style="mso-spacerun: yes">  </span>GENETICS 145: 833-846.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'> <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><a name=FilesinthisPackage>Downloadable Files</a><span style='mso-fareast-font-family:
+"MS Mincho"'><span style="mso-spacerun: yes">              </span><a
+href="#Contents">Return to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]></span></p>
+
+<ul>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="sites.exe">WIN32
+    (Windows)&nbsp; program</a></span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="SITES_win32.zip">WIN32
+    package (including documentation, sample data file,&nbsp; and WIN32 program)</a></span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="SITESppc.Hqx">PowerPC
+    (Mac)&nbsp; program</a></span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="SITES.sit">PowerPC
+    package (including documentation, sample data file, and PowerPC program)</a></span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="SITES_source.zip">Source
+    code&nbsp;</a></span></li>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+
+<p class=SITESHTMLSECTION><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span></span><a name=NewFeatures>New Features</a><span
+style='mso-bookmark:NewFeatures'></span><span style='mso-fareast-font-family:
+"MS Mincho"'><span style="mso-spacerun: yes">                    </span><a
+href="#Contents">Return to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>The major
+recent addition, as of 2001, is<span style="mso-spacerun: yes"> </span>a suite
+of<span style="mso-spacerun: yes">  </span>linkage disequilibrium analyses.</span></p>
+
+<p class=MsoNormal><span style="mso-fareast-font-family: MS Mincho">SITES will
+also generate lines suitable for input to the HKA&nbsp; and WH computer
+programs.&nbsp;</span></p>
+
+<p class=MsoNormal><span style="mso-fareast-font-family: MS Mincho">SITES will
+also now handle alternative genetic codes.</span></p>
+
+<p class=MsoNormal><span style="mso-fareast-font-family: MS Mincho">Note to
+previous users - some command line flags have changed - check <a href="#Menus">MENUS</a>..&nbsp; </span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span><a name=Analyses>Analyses</a><span
+style="mso-spacerun: yes">  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span><o:p></o:p></span></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><b><span
+     style='mso-fareast-font-family:"MS Mincho"'>Polymorphism Table</span></b><span
+     style='mso-fareast-font-family:"MS Mincho"'> SITES identifies polymorphic
+     sites and generates a table summarizing polymorphism information.
+     Polymorphisms are characterized with regard to several categories:
+     Noncoding or Coding; Synonymous, Replacement or Ambiguous; Transversion or
+     Transition; Insertion/Deletion (Indels) <o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><b><span
+     style='mso-fareast-font-family:"MS Mincho"'>Indel Table</span></b><span
+     style='mso-fareast-font-family:"MS Mincho"'> SITES tries to identify the
+     boundaries of insertions/deletions (indels)<span style="mso-spacerun:
+     yes">  </span>and generates a polymorphism table with its best guess of
+     indel variation. <o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><b><span
+     style='mso-fareast-font-family:"MS Mincho"'>Codon Usage Tables</span></b><span
+     style='mso-fareast-font-family:"MS Mincho"'> (assuming the standard
+     genetic code) <o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><b><span
+     style='mso-fareast-font-family:"MS Mincho"'>Numbers of synonymous and
+     replacement base positions</span></b><span style='mso-fareast-font-family:
+     "MS Mincho"'>. These can be interpreted as the relative proportions of
+     random mutations that would be expected to cause synonymous or replacement
+     changes. <o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><b><span
+     style='mso-fareast-font-family:"MS Mincho"'>Numbers of pairwise differences
+     among sequences</span></b><span style='mso-fareast-font-family:"MS Mincho"'>.
+     <o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><b><span
+     style='mso-fareast-font-family:"MS Mincho"'>GC content for complete
+     sequences and each codon position</span></b><span style='mso-fareast-font-family:
+     "MS Mincho"'>. <o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal style='margin-left:18.0pt'><span style='mso-fareast-font-family:
+"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><b><span
+     style='mso-fareast-font-family:"MS Mincho"'>Polymorphism Analyses</span></b><span
+     style='mso-fareast-font-family:"MS Mincho"'><span style="mso-spacerun:
+     yes">  </span>SITES conducts several kinds of polymorphism analysis that
+     can be<span style="mso-spacerun: yes">  </span>applied to the entire data
+     set or to multiple subsets of sequences. <o:p></o:p></span></li>
+  <ul style="margin-top:0cm" type="circle">
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>The program generates the two
+      most commonly used estimates of the neutral mutation parameter Theta (or
+      4Nu, where N is the effective population size and u is the neutral
+      mutation rate): <o:p></o:p></span></li>
+    <ul style="margin-top:0cm" type="square">
+      <li><span
+       style='mso-fareast-font-family:"MS Mincho"'>pairwise nucleotide
+       diversity or pi (Nei, 1987 p256).<o:p></o:p></span></li>
+      <li><span
+       style='mso-fareast-font-family:"MS Mincho"'>Wattersons etimator
+       (Watterson, 1975). <o:p></o:p></span></li>
+    </ul>
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>The program determines
+      several measures of non-neutrality in the site frequency distribution,
+      including Tajima's D (Tajima, 1989), Fu and Li's D and Fu and Li's D* (Fu
+      and Li, 1993). <o:p></o:p></span></li>
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>The program determines the
+      site frequency distribution for each group, both rooted and unrooted.<o:p></o:p></span></li>
+  </ul>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><b><span
+     style='mso-fareast-font-family:"MS Mincho"'>Group Comparisons.</span></b><span
+     style='mso-fareast-font-family:"MS Mincho"'><span style="mso-spacerun:
+     yes">  </span>SITES works with groups of sequences, so that groups can be
+     compared<span style="mso-spacerun: yes">  </span>with one another. A
+     number of analyses are intended explicitly for group comparisons.<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <ul style="margin-top:0cm" type="circle">
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'><span style="mso-spacerun:
+      yes"> </span>The program determines the average number of pairwise<span
+      style="mso-spacerun: yes">  </span>differences among all pairs of groups,
+      as well as the net divergence<span style="mso-spacerun: yes"> 
+      </span>among all pairs of groups. <o:p></o:p></span></li>
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>determines the numbers of
+      shared<span style="mso-spacerun: yes">  </span>and fixed differences
+      among groups. <o:p></o:p></span></li>
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>estimates the population
+      migration parameter (Nm) and Fst for all pairs of groups, following the
+      method outlined in of Hudson et al., 1992.<o:p></o:p></span></li>
+  </ul>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><b><span
+     style='mso-fareast-font-family:"MS Mincho"'>Historical Population Model
+     Fitting </span></b><span style='mso-fareast-font-family:"MS Mincho"'>SITES
+     carries out the analyses described in Wakeley &amp; <span
+     style="mso-spacerun: yes"> </span>Hey (1997, Estimating ancestral
+     population parameters.Genetics 145, 847-855). The data are fit to two
+     different models.<o:p></o:p></span></li>
+  <ul style="margin-top:0cm" type="circle">
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>an isolation speciation
+      model, with four parameters<o:p></o:p></span></li>
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>a model of recent population
+      size change, with three parameters<o:p></o:p></span></li>
+  </ul>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><b><span
+     style='mso-fareast-font-family:"MS Mincho"'>Recombination analyses. </span></b><span
+     style='mso-fareast-font-family:"MS Mincho"'>SITES conducts several kinds
+     of recombination analysis on each group, or the entire data set. <o:p></o:p></span></li>
+  <ul style="margin-top:0cm" type="circle">
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>a table of site by site congruency
+      <o:p></o:p></span></li>
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>a table of the minimum set of
+      recombination intervals (Hudson &amp; Kaplan, 1985) <o:p></o:p></span></li>
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>Hey &amp; Wakeley's (1997)
+      gamma, an estimate of 4Nc, the population recombination rate. <o:p></o:p></span></li>
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>Hudson's (1987) estimate of
+      4Nc <o:p></o:p></span></li>
+  </ul>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><b><span
+     style='mso-fareast-font-family:"MS Mincho"'>Linkage Disequilibrium
+     analyses. </span></b><span style='mso-fareast-font-family:"MS Mincho"'>SITES
+     will conduct several analyses of Linkage Disequilibrium (LD)<o:p></o:p></span></li>
+  <ul style="margin-top:0cm" type="circle">
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>matrices of LD values, for
+      several measure of LD<o:p></o:p></span></li>
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>matrices of statistical tests
+      of LD values<o:p></o:p></span></li>
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>calculates mean LD within and
+      between regions of the sequence<o:p></o:p></span></li>
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>does simulations to test mean
+      LD within and between regions<o:p></o:p></span></li>
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>determines various measures
+      of LD among polymorphisms shared by groups<o:p></o:p></span></li>
+  </ul>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><b><span
+     style='mso-fareast-font-family:"MS Mincho"'>Data Subsets and ReGrouping</span></b><span
+     style='mso-fareast-font-family:"MS Mincho"'> The data set can be
+     partitioned in numerous ways, without changing the data file. <o:p></o:p></span></li>
+  <ul style="margin-top:0cm" type="circle">
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>the groupings of sequences
+      can be changed at runtime <o:p></o:p></span></li>
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>sequences can be dropped from
+      the analysis at runtime <o:p></o:p></span></li>
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>analyses can be limited to
+      specific base pairs or specific intervals <o:p></o:p></span></li>
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>specific base positions can
+      be dropped from the analysis.<o:p></o:p></span></li>
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>analyses can be limited to
+      certain categories of polymorphic sites <o:p></o:p></span></li>
+  </ul>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span></span><a name=InputFileFormat>Input File
+Format</a><span style='mso-bookmark:InputFileFormat'></span><span
+style='mso-fareast-font-family:"MS Mincho"'><span style="mso-spacerun:
+yes">                </span><a href="#Contents">Return to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>There are
+three kinds of input format. SITES format, PHYLIP sequential format and PHYLIP
+interleaved format. PHYLIP is Joe Felsenstein's package of phylogenetic
+programs. The first line of a PHYLIP format file begins with two integers.
+SITES will check to see if the first character of a file is a number (i.e.,
+0..9) and if so it will assume that the file is in PHYLIP format. If the first
+character is not a number it will assume a SITES format. SITES format is very
+similar to PHYLIP sequential format. If multiple analyses may be run, it is
+most efficient to set up a SITES format file.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span style='mso-fareast-font-family:"MS Mincho"'>Data
+Restrictions.<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>The only
+characters that are allowed in the sequences are<span style="mso-spacerun:
+yes">  </span>'A','a','G','g','C','c','T','t','N','n','-','.', and '*'.<span
+style="mso-spacerun: yes">   </span>'N' and 'n'<span style="mso-spacerun:
+yes">    </span>represent base positions where the sequence is not known.
+'-','*', and<span style="mso-spacerun: yes">  </span>'.' represent base
+positions where one sequence has a gap relative to another sequence. Other
+characters cause the program to insert an 'N' in their place, and to display a
+warning at runtime. Each DNA sequence must have exactly the same number of
+characters. The only exception to this is that the data can have spaces (i.e. '
+') which are ignored.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name=SITESformat><b><span style='mso-fareast-font-family:
+"MS Mincho"'>SITES format</span></b></a><b><span style='mso-fareast-font-family:
+"MS Mincho"'>:<o:p></o:p></span></b></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>Line 1. A line of text that
+     generally provides a brief description of the data set. This line must not
+     begin with a number. If desired, up to 10 extra lines of commentary can be
+     added following line 1.<span style="mso-spacerun: yes">  </span>Each additional
+     line of commentary must have a '#' at the very beginning of the line. All
+     comment lines will be reproduced in the output file.<o:p></o:p></span></li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>Line 2. Contains 2 integers.
+     The first is the number of sequences. The second is the number of
+     characters in each sequence.<span style="mso-spacerun: yes">  </span><o:p></o:p></span></li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>Line 3. Contains 2 integers.
+     The first integer can be 1,2 or 3, and is the position in the coding frame
+     of the first coding base. If there are no coding bases, then this position
+     can be any number The second integer is the number of noncoding stretches
+     of sequence. For instance if the DNA sequence contains a 5' non- coding
+     sequence followed by three amino acid coding regions - with intervening
+     introns- followed by a 3' non-coding region. Then this integer would be 4
+     (5' noncoding plus 2 introns plus 3' noncoding).<span style="mso-spacerun:
+     yes">  </span>If the sequence does not include a protein coding region or
+     if the coding frame of the first coding base is not known, then the entire
+     sequence should be specified as non-coding, and the second integer should
+     be 1. <o:p></o:p></span></li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>After line 3 there is one line
+     for each noncoding stretch indicated on line 3. Each line contains two
+     integers: the base position of the first base in the noncoding region, and
+     the base position of the last base in the region. The lines go in order
+     from 5' to 3', meaning that the first line after line 3 contains the bases
+     for the most 5' noncoding region.<span style="mso-spacerun: yes"> 
+     </span>If there are no coding regions in the sequence, then the second
+     number on line 3 should be 1 and the<span style="mso-spacerun: yes"> 
+     </span>two integers on line 4 should simply be a 1, followed by the length
+     of the sequences (i.e. indicating a noncoding region as long as the<span
+     style="mso-spacerun: yes">  </span>sequence).<o:p></o:p></span></li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>The line after those
+     containing information on noncoding regions contains just a single
+     integer, the number of groups of sequences. If sequences are not in groups
+     then this number should be 1. If this number is greater than 1, then for
+     each group there is a line containing the group name and the number of
+     sequences in that group. A group name can be up to 12 characters. The
+     group names should be ordered so that they are in the same order as the
+     sequences. <o:p></o:p></span></li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>After the lines containing the
+     number of groups and the group names and sizes, come the sequences. The
+     sequences must be in sequential format, meaning that all of the text for
+    one sequence occurs before the text for the next sequence. There can be one
+    sequence per line, however this is not necessary, and sequences can be
+    spread out over multiple lines.&nbsp; Only the following characters can be
+    included in the sequence:</span> A,a,C,c,G,c,T,t,N,n,'*','-','.'.&nbsp; The
+    latter three all indicated the absence of sequence relative to other
+    sequences in the file.&nbsp;</li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>For each sequence, the first 10 characters
+     contain the name of the sequence for that line. There may be spaces
+     between the name and the beginning of the sequence, but the actual
+     sequence must begin in column 11. The sequence name should begin with a
+    letter or a number (no asterisks, or other symbols can be the first
+    character in a sequence name). <o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<h1><a name=SampleSITESFormat>Sample SITES Format</a></h1>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Below is a
+sample SITES input file for 10 sequences each of 50 characters.<span
+style="mso-spacerun: yes">  </span>There is one noncoding region extending
+between bases 20<span style="mso-spacerun: yes">  </span>to 44, inclusive,<span
+style="mso-spacerun: yes">  </span>and the first base of the coding region
+(i.e. base 1) is in frame 3 of the<span style="mso-spacerun: yes"> 
+</span>codon. There are four groups of sequences.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>**** <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>SITES sample
+input <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>10 50 <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>3 1 <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>20 44 <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>4 <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>simulans 3 <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>mauritiana 2 <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>sechellia 2 <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>melanogaster 3 <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>SI-CA1<span
+style="mso-spacerun: yes">   
+</span>CAGGGTGTCCGACTCGGCCTACTCGAGCA......GCAACAGCCAGTCAC <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>SI-CA2<span
+style="mso-spacerun: yes">   
+</span>CAGGGTGTCCGACTCGGCCTACTCGAACAGCTGCAGCAACAGCCAGTCAC <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>SI-K1<span
+style="mso-spacerun: yes">    
+</span>CAGGGTGTCCGACTCGGCCTACTCGAACA......GTAACAGCCAGTCAC <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>MA-1<span
+style="mso-spacerun: yes">     
+</span>CAGGGTGTCCGACTCGGCCTACTCGAACAGCTGCAGCAATAGCCAGTCGC <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>MA-2<span
+style="mso-spacerun: yes">     
+</span>CAGGGTGTCCGACTCGGCCTACTCGAACAGCTGCAGCAATCGCCAGTCGC <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>SE-C1<span
+style="mso-spacerun: yes">    
+</span>CAAGGTGTCCGACTCGGCCTACCCGAACAGCTGCAGCAACAGCCAGTCGC <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>SE-P1<span
+style="mso-spacerun: yes">    
+</span>CAAGGTGTCCGACTCGGCCTACTCGAACAGCTGCAGCAACAGCCAGTCGC <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>ME-NJ1<span
+style="mso-spacerun: yes">    </span>CAAGGTGTCCGACTCGGCCTACCCGAACGGCTGCAGCAACAGCCAGCCGC
+<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>ME-K1<span
+style="mso-spacerun: yes">    
+</span>CAAGGTGTCCGACTCGGCCTACCCGAACAGCTGCAGCAACAGCCAGCCGC <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>ME-LI1<span
+style="mso-spacerun: yes">   
+</span>CAAGGTGTCCGACTCGGCCTACCCGAACAGCTGCAGCAACAGCCAGCCGC <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>**** <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>For many
+questions, intron and exon boundaries are not relevant. To run<span
+style="mso-spacerun: yes">  </span>SITES without providing information on
+introns and exons, simply indicate that the entire sequence is one large
+noncoding sequence.<span style="mso-spacerun: yes">  </span>In this case,
+the<span style="mso-spacerun: yes">  </span>value of the first coding base is
+irrelevant.<span style="mso-spacerun: yes">  </span>For example to do this
+with<span style="mso-spacerun: yes">  </span>the sample data set above, lines 3
+and 4 of the data file would be:<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>1<span
+style="mso-spacerun: yes">   </span>1<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>1<span
+style="mso-spacerun: yes">   </span>50<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name=PHYLIPformats><b><span style='mso-fareast-font-family:
+"MS Mincho"'>PHYLIP sequential and interleaved formats</span></b></a><b><span
+style='mso-fareast-font-family:"MS Mincho"'>: <o:p></o:p></span></b></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>line 1: contains 2 integers.
+     The first is the number of sequences. The second is the number of bases
+     per sequence. <o:p></o:p></span></li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>After line 1, are lines for
+     the data. The data can be in sequential format with 1 line per sequence.
+     If so then the first 10 positions are devoted to the name of the sequence.
+     The data can also be in interleaved format. If so then for N sequences,
+     there are N lines each beginning with a name in the first 10 positions
+     followed by some sequence. After N lines there is an empty line, followed
+     by N more lines containing aligned data (but no names). This pattern is
+     repeated until the final block of N lines. <o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span></span><a name=RunningtheProgram>Running the
+Program</a><span style='mso-bookmark:RunningtheProgram'></span><span
+style='mso-fareast-font-family:"MS Mincho"'><span style="mso-spacerun:
+yes">              </span><a href="#Contents">Return to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>The
+program file should reside either in the same folder as the data file or in
+a folder automatically searched by the operating system. The user starts the
+program simply by going to the folder where the data file and the program exist and typing
+the name of the program (e.g. 'sites'). The program asks several
+questions about the data file and the<span style="mso-spacerun: yes"> </span>desired analysis. Nearly all commands and options can also be entered
+using command line parameters.</span>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>On a PowerPC, clicking on the program icon opens a small
+window in which command line parameters can be entered<span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">.&nbsp;
+The user can also just hit return at this point and the program will request
+runtime parameters.</span></p>
+
+<p class="MsoPlainText">&nbsp;</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><span
+style="mso-spacerun: yes"> </span><a name=Menus>Menus</a><span
+style="mso-spacerun: yes">  </span><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                         </span><a href="#Contents">Return
+to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________
+<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span><a name=Sitechoicemenu><b>Site choice
+menu</b></a><b>. <o:p></o:p></b></span></p>
+
+<p class=MsoNormal><b><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>-----------------------<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>If the 'S'
+flag is not used when the program is started, then the following menu will
+appear.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>SITE OPTIONS ARE
+: a for All site types<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                   </span>i for all noncoding base
+changes<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                   </span>e for all coding base
+changes<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                   </span>s for synonymous coding
+sites<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                   </span>r for replacement coding
+sites<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                   </span>o for<span
+style="mso-spacerun: yes">  </span>ambiguous coding sites<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                   </span>d for insertion/deletion
+(indel) sites<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                   </span>f for only informative
+sites<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                   </span>n for only transitions<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                   </span>v for only transversions<o:p></o:p></span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                   </span><span
+style="font-size: 10.0pt; mso-bidi-font-size: 12.0pt; font-family: Courier New; mso-fareast-font-family: MS Mincho">z </span>
+to skip all positions with more than 2 base values<o:p></o:p><![if !supportEmptyParas]><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                   </span>x to skip all positions
+within indels<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>TYPE THE LETTERS
+OF THE DESIRED SITE TYPES (no spaces):</span><span style='font-family:"Courier New";
+mso-fareast-font-family:"MS Mincho"'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>These
+options determine the information that is included in the polymorphism table,
+and they may affect which kinds of polymorphic sites are subject to other
+analyses. The user should enter a string of characters corresponding to those
+types of polymorphic sites that are to be included in the analyses. For
+example, an analysis on only informative synonymous sites would be called for
+by entering 'fs' or 'sf'. The most common analysis is done on all types of
+polymorphic sites (i.e. 'a'); 'ambiguous coding sites' are those for which the
+program could not determine whether a coding base change was a replacement or a
+synonymous change.&nbsp;</span></p>
+
+<p class=MsoNormal>'z' will cause all those positions with more than two types
+of base values to be excluded from the analysis.</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'> 'x' will cause all those positions that are within regions
+for which some of the lines differ by indels to be excluded from the analyses.</span></p>
+
+<p class=MsoNormal><span style="mso-fareast-font-family: MS Mincho">By invoking
+both 'z' and 'x', the data set can be reduced to just those sites that fit a
+simple infinite sites model of mutation. </span><span style='mso-fareast-font-family:"MS Mincho"'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span><a name=Analysischoicemenu><b>Analysis
+choice menu</b></a><b>. <o:p></o:p></b></span></p>
+
+<p class=MsoNormal><b><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>-----------------------------<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>If the 'A'
+command is not used when the program is started, then the following menu will
+appear. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>ANALYSIS TYPES
+ARE:<span style="mso-spacerun: yes">  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">        </span>a for all basic types (except r,m,g,l)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">        </span>s for basic site table<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">        </span>e for coding change details<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">        </span>c for codon usage tables<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">        </span>p for polymorphism analysis<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">        </span>i for indel site table &amp; indels in
+recombination analysis<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">        </span>r for recombination analysis<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">        </span>m for population model fitting<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">        </span>l (L) for linkage disequilibrium
+analyses (invokes r)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">        </span>g for GC analyses<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>TYPE THE LETTERS
+OF THE DESIRED ANALYSES (no spaces):<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:"Courier New";mso-fareast-font-family:
+"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:51.0pt;text-indent:-18.0pt;mso-list:l4 level1 lfo42;
+tab-stops:list 51.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>'a'
+calls for the most basic analyses, including s,e,c,p &amp; i<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:51.0pt;text-indent:-18.0pt;mso-list:l4 level1 lfo42;
+tab-stops:list 51.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>'s' calls
+for a table of polymorphic base positions to appear in the output file. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:51.0pt;text-indent:-18.0pt;mso-list:l4 level1 lfo42;
+tab-stops:list 51.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>'e'
+calls for a table that contains the codons that are the sites of synonymous,
+replacement, and ambiguous polymorphisms. This is especially useful for
+determining the likely sequence of mutations when multiple polymorphisms occur
+within a codon.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:51.0pt;text-indent:-18.0pt;mso-list:l4 level1 lfo42;
+tab-stops:list 51.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>'c'
+calls for a table of codon usage. Only the 'universal' code is used. Two tables
+are printed, one for the first sequence in the data file, and one for all of
+the sequences. Also included are counts of the numbers of synonymous and
+replacement bases (i.e. relative proportions of random mutations expected to
+cause synonymous or replacement changes). These counts of synonymous and
+replacement bases can be used to calculate the number of synonymous
+polymorphisms per synonymous base. Similarly, the counts of replacement bases
+can be used to calculate the number of replacement polymorphisms per
+replacement base.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:51.0pt;text-indent:-18.0pt;mso-list:l4 level1 lfo42;
+tab-stops:list 51.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>'p'
+calls for a set of analyses on polymorphism within and among groups. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:51.0pt;text-indent:-18.0pt;mso-list:l4 level1 lfo42;
+tab-stops:list 51.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>'i'
+calls for a polymorphism table for indel variation. This option also causes
+indels to be included in some recombination analyses, if the 'r' option is also
+used. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:51.0pt;text-indent:-18.0pt;mso-list:l4 level1 lfo42;
+tab-stops:list 51.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>'r'
+calls for a set of recombination analyses. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:51.0pt;text-indent:-18.0pt;mso-list:l4 level1 lfo42;
+tab-stops:list 51.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>'m'
+calls for fitting the ISOLATION SPECIATION MODEL to pairs of groups of
+sequences, and the POPULATION SIZE CHANGE MODEL to each group of sequences.
+These analyses are not applicable for many data sets, and they can be slow for
+data sets with large groups.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:51.0pt;text-indent:-18.0pt;mso-list:l4 level1 lfo42;
+tab-stops:list 51.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>'l'
+(‘L’) calls for the Linkage Disequilibrium Options Menu to appear.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:51.0pt;text-indent:-18.0pt;mso-list:l4 level1 lfo42;
+tab-stops:list 51.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>'g'
+calls for a table of GC content by codon position and for noncoding regions,
+for each of the sequences. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<h1><span style="mso-spacerun: yes">     </span><a
+name=DataAndOutputOptionsMenu>Data And Output Options Menu</a> </h1>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>----------------------------------- <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>If the 'O'
+command is not used when the program is started, then the following menu will
+appear. Several of these commands require additional information that must be
+entered in response to queries, or provided with other command line flags. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>DATA
+OPTIONS:<span style="mso-spacerun: yes">   </span>g for comparisons within
+groups<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span><span style="mso-spacerun:
+yes">           </span>n for new group designations<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                </span>d for dropping some sites<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                </span>m for data limited to some
+sites<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                </span>x for dropping some sequences</span></p>
+
+<p class=MsoNormal><span style="font-size: 10.0pt; mso-bidi-font-size: 12.0pt; font-family: Courier New; mso-fareast-font-family: MS Mincho">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c for non-canonical genetic code</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>OUTPUT OPTIONS:
+s for no screen output during analysis<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                </span>p suppress large pairwise
+difference table<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                </span>h text line of input values
+for HKA program<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                </span>w text line of input values
+for WH program<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                </span>f for first sequence reference
+in site table<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                </span>t for table style: (. and -)
+replace (- and *)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>TYPE THE LETTERS
+OF THE DESIRED OPTIONS (no spaces):<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>'g' means that polymorphism
+     and recombination analyses will be performed on each group of sequences
+     individually. If 'g' is not entered then the entire data set is treated as
+     a single group. This option is ignored if there are no groups in the data
+     set. <o:p></o:p></span></li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>'n' provides the opportunity
+     to redesignate group assignments. These new groupings must still be
+     consistent with the order of the DNA sequences in the data file. A series
+     of questions will prompt the user to provide the necessary information. <o:p></o:p></span></li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>'d' provides the opportunity
+     to drop some of the base positions from inclusion in the analysis. A
+     series of questions will prompt the user to provide the necessary information.
+     There are three ways to drop base positions, chosen in response to the
+     following query that will appear on the screen.<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:"Courier New";mso-fareast-font-family:
+"MS Mincho"'>DROPPING SOME SITES, enter option : r for range<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:"Courier New";mso-fareast-font-family:
+"MS Mincho"'><span style="mso-spacerun:
+yes">                                    </span>f for file<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:"Courier New";mso-fareast-font-family:
+"MS Mincho"'><span style="mso-spacerun: yes">                               
+    </span>i for individual entry<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><span style='mso-fareast-font-family:
+"MS Mincho"'>The user should enter 'r','f', or 'i', and follow the directions.
+In the case of 'f', the user should previously have created a file that
+contains base positions that are to be dropped. The format is simply a list of
+numbers, one number per line.<span style="mso-spacerun: yes">  </span>In the
+case of 'r' or 'i', the program asks the user for information on the range
+limits, or individual base positions, respectively. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><span style='mso-fareast-font-family:
+"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>'m' provides the opportunity
+     to limit the analyses to just a subset of the base positions. This option
+     works almost exactly like 'd', but can be more convenient under some
+     circumstances. By using the 'm' option it is possible to examine just
+     short sequences. For example, if a sliding window analysis is desired, the
+     program can be run repeatedly using a different interval in each case. If
+     just coding, or non-coding sequence is desired, then the 'd' or 'm'
+     options are not needed. Instead simply specify 'e' or 'i' in the Site
+     Choice menu. <o:p></o:p></span></li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>'x' provides the opportunity
+     to exclude some of the sequences from the analyses. This options works
+     exactly as the 'd' option -<span style="mso-spacerun: yes">  </span>either
+     a range or a file or individual entry can be used to indicate which
+     sequences to exclude. This option allows for the use of very large data
+     sets. One large data set can be maintained for a set of aligned sequences,
+     and then specific analyses that use just a subset of the sequences can
+     still be run. The program will maintain the appropriate group
+     designations, even if one or more groups are entirely excluded.&nbsp;</span></li>
+  <li><span style="mso-fareast-font-family: MS Mincho">'c'
+  calls for an alternative genetic code to be used.&nbsp; If this option is used
+  then the following&nbsp; menu appears that lists the most frequently used
+  alternative codes. Selection of one of the alternatives causes that code to be
+  used in all codon related analyses. The codes are given at the NCBI site <a href="http://www.ncbi.nlm.nih.gov/htbin-post/Taxonomy/wprintgc?mode=c">http://www.ncbi.nlm.nih.gov/htbin-post/Taxonomy/wprintgc?mode=c</a></span>
+    <ul style="margin-top:0cm" type="disc">
+      <li>Alternate (Non-Canonical) Genetic Code:
+        <ul type="circle">
+          <li>         V&nbsp;&nbsp;&nbsp; Vertebrate Mitochondrial Code</li>
+          <li>         Y&nbsp;&nbsp;&nbsp; Yeast Mitochondrial Code</li>
+          <li>         M&nbsp;&nbsp;&nbsp; Mold, Protozoan, and Coelenterate Mitochondrial
+          Code</li>
+          <li>         I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Invertebrate Mitochondrial Code</li>
+          <li>         C&nbsp;&nbsp;&nbsp;&nbsp; The Ciliate, Dasycladacean and Hexamita Nuclear Code</li>
+          <li>         E&nbsp;&nbsp;&nbsp;&nbsp; The Echinoderm Mitochondrial Code</li>
+          <li>         P&nbsp;&nbsp;&nbsp;&nbsp; The Euplotid Nuclear Code</li>
+          <li>         A&nbsp;&nbsp;&nbsp;&nbsp; The Alternative Yeast Nuclear Code</li>
+          <li>         D&nbsp;&nbsp;&nbsp;&nbsp; Ascidian Mitochondrial Code</li>
+          <li>         F&nbsp;&nbsp;&nbsp;&nbsp; Flatworm Mitochondrial Code</li>
+        </ul>
+      </li>
+      <li>TYPE THE LETTER OF THE DESIRED GENETIC CODE:<span
+     style='mso-fareast-font-family:"MS Mincho"'><o:p></o:p></span></li>
+    </ul>
+  </li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>'s' no information is output
+     to the screen during the run.<o:p></o:p></span></li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>'p' suppresses the output of
+     the matrix of pairwise differences between individual sequences. This
+     matrix can be useful for a close look at things, but with many sequences
+     it is quite large.<o:p></o:p></span></li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>'h' causes the generation of
+     text that is suitable for input into a program called HKA.<span
+     style="mso-spacerun: yes">  </span>This program does HKA tests (Hudson,
+     Kreitman and Aguadé, 1987) and related analyses on multiple loci.<o:p></o:p></span></li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>'w' causes the generation of
+     text that is suitable for input into a program called WH.<span
+     style="mso-spacerun: yes">  </span>This program does analyses described in
+     Wakeley and Hey(1997) and Wang, Wakeley &amp; Hey (1997).<o:p></o:p></span></li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>'f' calls for the polymorphism
+     table to use the first DNA sequence in the data file as the reference. The
+     default is to use a consensus sequence (i.e. the most common base among
+     all of the sequences) as the reference sequence in the polymorphism table
+     output.<o:p></o:p></span></li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>'t' changes the characters
+     that are used in the polymorphism table. The default is for '-' to refer
+     to a base value that is identical to the reference sequence for a given polymorphism
+     and to use '*' to refer to a gap in the DNA sequence relative to other DNA
+     sequences, or relative to the reference. By using the 't' option, the
+     table will use '.' to refer to a base that is identical to the reference
+     and '-' to refer to gaps. <o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span><a name=LinkageDisequilibriumOptionsMenu><b>Linkage
+Disequilibrium Options Menu</b></a><b><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">    
+</span>-------------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>If the 'L'
+command is not used on the command line, and the 'L' option is listed in
+response to the Analysis Choice Menu then the following menu<span
+style="mso-spacerun: yes">  </span>will appear. Some of these commands require
+additional information that must be entered in response to queries, or provided
+with other command line flags. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>Linkage
+Disequilibrium (LD) Analyses:<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">         </span>m print matrix of pairwise values and
+significance tests<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">         </span>y measure and compare average LD by
+regions<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">         </span>t randomization tests of average LD
+by regions<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">         </span>s analyze LD among polymorphism
+shared between groups<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">         </span>x exclude singletons from all LD
+analyses<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>Apply Analyses
+to the Following LD Measures<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">         </span>d<span style="mso-spacerun: yes"> 
+</span>D - standard linkage disequilibrium (default)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">         </span>p<span style="mso-spacerun: yes"> 
+</span>D' -<span style="mso-spacerun: yes">  </span>D prime = D/Dmax<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">         </span>b<span style="mso-spacerun: yes"> 
+</span>|D| - absolute value of D<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">         </span>a<span style="mso-spacerun: yes"> 
+</span>|D'| - absolute value of D prime<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">         </span>r<span style="mso-spacerun: yes"> 
+</span>correlation coefficient<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">         </span>q<span style="mso-spacerun: yes"> 
+</span>r^2 - squared correlation coefficient<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>TYPE THE LETTERS
+OF DESIRED ANALYSES AND MEASURES (no spaces):<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>'m' causes matrices of LD
+     values to be printed in an additional output file.<span
+     style="mso-spacerun: yes">  </span>That filename is either given at the
+     command line ('-E' flag) or is requested following the appearance of the
+     Linkage Disequilibrium menu.<span style="mso-spacerun: yes">  </span>For
+     every group there is a matrix of statistical tests, including Fisher's
+     Exact Test and a chi-square test. Also for every group, and every LD
+     measure, there will be a matrix showing LD values for all pairs of sites. <o:p></o:p></span></li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>'y' causes an analysis of mean
+     LD values within and between regions of the sequence.<span
+     style="mso-spacerun: yes">  </span>These regions must be given in a file,
+     the name of which is either given on the command line ('-G' flag) or is
+     requested after this menu.<span style="mso-spacerun: yes">  </span>For an
+     analysis with R regions the file should have R numbers, in order from low
+     to hi, with each number being the last base of a region.<span
+     style="mso-spacerun: yes">  </span>The very last number should be
+     identical to the full length of the sequence.<o:p></o:p></span></li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>'t' causes statistical tests,
+     via simulation, of mean LD values within and between regions. The
+     simulations can be slow (see below).<o:p></o:p></span></li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>'s' causes analysis of LD
+     among polymorphisms shared between species.<o:p></o:p></span></li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>'x' causes all LD analyses to
+     be limited to only those pairs of sites for which neither polymorphism is
+     of the singleton type (i.e. the rarer base appears only once). LD measures
+     vary in the sensitivity to the presence of singletons. <o:p></o:p></span></li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>'d','p','b','a','r','q'<span
+     style="mso-spacerun: yes">  </span>These measures are conventional (see
+     e.g. Hedrick 2000).<span style="mso-spacerun: yes">  </span>For each one
+     that is used, all of the LD analyses are done.<span style="mso-spacerun:
+     yes">  </span>Quite a lot of output can be generated by calling for
+     multiple LD measures.<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal style='margin-left:18.0pt'><span style='mso-fareast-font-family:
+"MS Mincho"'><![if !supportEmptyParas]>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><a name=Commandlineusage>Command line usage</a> <span
+style='mso-fareast-font-family:"MS Mincho"'><span style="mso-spacerun:
+yes">            </span><a href="#Contents">Return to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>Nearly
+all commands and options can be given at the command line.&nbsp; Usage of the
+command line permits many analyses to be automated, so that they can be very
+easily repeated and, if desired, given in batch files.&nbsp;</span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name=PrimaryCommandLineFlags><b><span style='mso-fareast-font-family:
+"MS Mincho"'>Primary Command Line Flags</span></b></a><b><span
+style='mso-fareast-font-family:"MS Mincho"'>:<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Each command
+line parameter flag may be upper or lower case and may be preceded by a '-',
+'\' or '/'. Following a command line parameter is a string<span
+style="mso-spacerun: yes">  </span>of characters appropriate to that command. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>Flag<span
+style="mso-spacerun: yes">  </span>parameter string<span style="mso-spacerun:
+yes">                            </span>example <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>----------------------------------<span
+style="mso-spacerun: yes">            </span>---------------- <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>I<span
+style="mso-spacerun: yes">    </span>the name of the data file<span
+style="mso-spacerun: yes">                </span>-Imydata.seq <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>R<span
+style="mso-spacerun: yes">    </span>the name of the output file<span
+style="mso-spacerun: yes">              </span>-Rmyresult <o:p></o:p></span></p>
+
+<p class=MsoNormal style='tab-stops:54.0pt'><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:"Courier New";mso-fareast-font-family:
+"MS Mincho"'>M<span style="mso-spacerun: yes">    </span>message up to 78
+characters (no blanks)<span style="mso-spacerun: yes">  </span>-Mmy_data <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>S<span
+style="mso-spacerun: yes">    </span>kinds of polymorphic sites to analyze<span
+style="mso-spacerun: yes">    </span>-Sa&nbsp;&nbsp; (see Site Options Menu
+above)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>A<span
+style="mso-spacerun: yes">    </span>kinds of analyses to perform<span
+style="mso-spacerun: yes">             </span>-Aspr (see Analysis
+Menu above) <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>O<span
+style="mso-spacerun: yes">    data and output</span> options<span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>-Ogc&nbsp; (see Data and Ouput Menu above) <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'>L<span
+style="mso-spacerun: yes">    </span>linkage disequilibrium options<span
+style="mso-spacerun: yes">           </span>-Lyrp (see LD Analysis
+Menu)</span></p>
+
+<p class=MsoNormal><span style="font-size: 10.0pt; mso-bidi-font-size: 12.0pt; font-family: Courier New; mso-fareast-font-family: MS Mincho">C&nbsp;&nbsp;&nbsp;
+alternate genetic
+code&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-Cf&nbsp;&nbsp; (see Alternative Genetic Code Menu above)</span><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;
+font-family:"Courier New";mso-fareast-font-family:"MS Mincho"'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Any of
+these parameters can be given at the command line when the program is started.
+Either uppercase or lowercase letters may be used for flags and for their
+parameter strings.&nbsp; For example, the following command line, entered in a
+command prompt window will generate a file called myresult.sit. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>sites -isitestestdata -rmyresult -mmy_data
+-sa
+-aspr -ogc -cf <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>For each
+of the parameter flags that are not included at the command line<span
+style="mso-spacerun: yes">  </span>when the program is started, the program
+will ask for the information. It is<span style="mso-spacerun: yes">  </span>not
+required that any of the command line parameter flags be used. The program<span
+style="mso-spacerun: yes">  </span>will also ask for more information if phylip
+style data formats are used, and<span style="mso-spacerun: yes">  </span>if
+some of the analysis options are used. The data file can have any name,<span
+style="mso-spacerun: yes">  </span>though it should not include the folder information. This usually means<span style="mso-spacerun: yes">  </span>that
+the program and the data need to reside in the same folder. The name of the
+output file should not have an extension. The characters '.SIT' will be<span
+style="mso-spacerun: yes">  </span>added to the output file name that is given
+to the program. Thus, for the<span style="mso-spacerun: yes">  </span>example
+above, the program would produce a file called 'myresult.sit'. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Three of
+the flags ('S', 'A', and 'O') correspond to menus (see below).<span
+style="mso-spacerun: yes">  </span>If the flag is not used at the command line,
+a menu will appear, requesting<span style="mso-spacerun: yes">  </span>user
+input. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name=SecondaryCommandLineFlags><b><span style='mso-fareast-font-family:
+"MS Mincho"'>Secondary Command Line Flags:<o:p></o:p></span></b></a></p>
+
+<span style='mso-bookmark:SecondaryCommandLineFlags'></span>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Additional
+command line options can be used to limit the size of the data set if the 'O'
+flag or the ‘L’ flag is used.<span style="mso-spacerun: yes">  </span>These
+secondary flags should be placed after the respective primary flag.<span
+style="mso-spacerun: yes">  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Note that
+command line flags for dropping sequences can be used either in conjunction with
+flags for excluding base positions, or with flags for keeping<span
+style="mso-spacerun: yes">  </span>certain base positions.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>If the 'O' flag (see Primary
+     Command Line Flags) is on the command line<span style="mso-spacerun:
+     yes">  </span>with the 'd' option, in order to exclude some base positions
+     from the<span style="mso-spacerun: yes">  </span>analyses (see Analysis
+     Options 'd' below):<o:p></o:p></span></li>
+  <ul style="margin-top:0cm" type="circle">
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>'D' flag can be included on
+      the command line to specify the filename with base positions to be
+      dropped. Immediately following the '-D' should be the name of the
+      existing file. For example: '-Dbasedrop.txt'.<o:p></o:p></span></li>
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>or an 'X' flag can be
+      included on the command line to specify the range of base positions to be
+      excluded. Immediately following the '-X' should be a range with a '-'
+      separating the two extremes, and without any spaces.<span
+      style="mso-spacerun: yes">  </span>For example: '-X100-200'. <o:p></o:p></span></li>
+  </ul>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>If the 'O' flag is on the
+     command line with the 'm' option, in order to<span style="mso-spacerun:
+     yes">  </span>limit the analyses to just a subset of base positions<span
+     style="mso-spacerun: yes">  </span>(see Analysis Options 'm' below):<o:p></o:p></span></li>
+  <ul style="margin-top:0cm" type="circle">
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'><span style="mso-spacerun:
+      yes"> </span>a 'K' flag can be included on the command line to specify
+      the filename with the base positions to be used in the analysis.
+      Immediately following the '-K' should be the name of the<span
+      style="mso-spacerun: yes">  </span>existing file.<span
+      style="mso-spacerun: yes">  </span>For example: '-Kbasekeep.txt'<span
+      style='mso-tab-count:1'>    </span><o:p></o:p></span></li>
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>or a 'Y' flag can be included
+      on the command line to specify the range of base positions to be kept.
+      Immediately following the '-Y' should be a range with a '-' separating
+      the two extremes, and without any spaces.<span style="mso-spacerun:
+      yes">  </span>For example: '-Y201-300'. <o:p></o:p></span></li>
+  </ul>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>If the 'O' flag is on the
+     command line with the 'x' option, in order to<span style="mso-spacerun:
+     yes">  </span>drop some sequences from the analyses<span
+     style="mso-spacerun: yes">  </span>(see Analysis Options 'x' below):<o:p></o:p></span></li>
+  <ul style="margin-top:0cm" type="circle">
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'><span style="mso-spacerun:
+      yes"> </span>a 'Q' flag can be included on the command line to specify
+      the filename with the sequence numbers to be dropped. Immediately
+      following the '-Q' should be the name of the<span style="mso-spacerun:
+      yes">  </span>existing file.<span style="mso-spacerun: yes">  </span>For
+      example: '-Qdropseq.txt'.<o:p></o:p></span></li>
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>or a 'Z' flag can be included
+      on the command line to specify the range of sequences to be dropped.
+      Immediately following the '-Z' should be a range with a '-' separating
+      the two extremes, and without any spaces.<span style="mso-spacerun:
+      yes">  </span>For example: '-Z4-12'.<o:p></o:p></span></li>
+  </ul>
+</ul>
+
+<p class=MsoNormal style='margin-left:18.0pt'><span style='mso-fareast-font-family:
+"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>If the 'L' flag is in the
+     command line with the 'm' option, the program<span style="mso-spacerun:
+     yes">  </span>the program will print out LD matrices to another file.<span
+     style="mso-spacerun: yes">  </span>The name of that<span
+     style="mso-spacerun: yes">  </span>file can<span style="mso-spacerun:
+     yes">  </span>be identified at runtime, or else the program will ask for
+     the filename.<o:p></o:p></span></li>
+  <ul style="margin-top:0cm" type="circle">
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'>an'E' flag can be included on
+      the command line to specify the filename to which the LD matrices will be
+      printed. Any existing file of that name will be overwritten. Immediately
+      following the '-E' should be the name of the file. For example
+      –Emyldmatrices<o:p></o:p></span></li>
+  </ul>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>If the 'L' flag is in the
+     command line with<span style="mso-spacerun: yes">  </span>the 'y' option,
+     the program will generate an analyses of LD by regions<span
+     style="mso-spacerun: yes">  </span>of the sequence.<span
+     style="mso-spacerun: yes">  </span>To do this it needs input on the
+     boundaries of regions.<span style="mso-spacerun: yes">  </span>These are
+     contained in another file, which can be identified<span
+     style="mso-spacerun: yes">  </span>at runtime, or else the program will
+     ask for the filename.<o:p></o:p></span></li>
+</ul>
+<ul style="margin-top:0cm" type="disc">
+  <ul style="margin-top:0cm" type="circle">
+    <li><span
+      style='mso-fareast-font-family:"MS Mincho"'><span style="mso-spacerun:
+      yes"> </span>a 'G' flag can be included on the command line to specify
+      the filename that contains the boundaries of regions for measuring and
+      comparing mean LD. Immediately following the '-G' should be the name of
+      the existing file. For an analysis with r regions the file should have r
+      numbers, in order from low to hi, with each number being the last base of
+      a region.<span style="mso-spacerun: yes">  </span>The very last number
+      should be identical to the full length of the sequence.<o:p></o:p></span></li>
+  </ul>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt'><span style='mso-fareast-font-family:
+"MS Mincho"'><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><a name=Output>Output</a><span style='mso-bookmark:
+Output'></span><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                          </span><a href="#Contents">Return
+to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>When running,
+the program writes some messages to the screen (unless the 's' ANALYSIS OPTION
+is used). While reading in the data, the program writes<span
+style="mso-spacerun: yes">  </span>the base position of each polymorphic site
+as it is found. Following this, the program writes a brief message for each
+category of analysis being conducted. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>The output
+of the program is all contained in one file that has a '.SIT' extension. This
+file can be quite long for large data sets and complete analyses. If there are
+many sequences, the 'p' option in the OUPUT OPTIONS menu can cut down on the
+size of the data set.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>For the
+most part, the formatting of the output is not hard to follow. At the top of
+the file, the run parameters are listed, as are the sequence and group names.
+For a full analysis of a data set with multiple groups,<span
+style="mso-spacerun: yes">  </span>the following headings are generated: <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span><a name=TableOfPolymorphicSites><b>Table
+of Polymorphic Sites </b></a><b><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>-------------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>This table
+provides the base position and type of polymorphism for all variable base
+positions in the data set (excluding those sequences and regions of sequences
+that were not included in the analysis). <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span><a name=CountofSiteTypes><b>Counts of
+Site Types <o:p></o:p></b></a></span></p>
+
+<span style='mso-bookmark:CountofSiteTypes'></span>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>-----------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>An
+approximate list of counts of the number of base positions associated with each
+kind of polymorphisms in the table. These counts are rough because some base
+positions may have multiple kinds of polymorphisms. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span><a name=IndelTables><b>Indel Tables<o:p></o:p></b></a></span></p>
+
+<span style='mso-bookmark:IndelTables'></span>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>--------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>A set of
+two tables:<span style="mso-spacerun: yes">  </span>The first is very similar
+to that for polymorphic sites, except that each distinct indel (regardless of
+length) gets just one position. The second table lists the sequence and
+position of each distinct indel. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span><a
+name=TableofSynonymousReplacementandUnc><b>Table of Synonymous, Replacement and
+Uncertain Exon Changes </b></a><b><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">    
+</span>--------------------------------------------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>A list of
+all (or most) coding region base changes. With each polymorphism the different
+codon states are shown. This can be used to resolve cases where multiple
+changes have occurred within the same codon, and where it was not clear to the
+program whether a change was synonymous or replacement.<span
+style="mso-spacerun: yes">  </span>This analysis may not be complete if there
+are three or four bases segregating at a position, or in cases where a single
+aligned codon has many amino acids segregating.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span><a name=CodonUsageTable><b>Codon Usage
+Table <o:p></o:p></b></a></span></p>
+
+<span style='mso-bookmark:CodonUsageTable'></span>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>---------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>A table of
+codon usage for the first sequence. Also included are counts of the numbers of
+synonymous and replacement sites (i.e. relative proportions of random mutations
+expected to cause synonymous or replacement changes).<span style="mso-spacerun:
+yes">  </span>The calculation of these values is best explained with an
+example. Consider a<span style="mso-spacerun: yes">  </span>codon (e.g. AAA for
+lysine) and consider each base in the<span style="mso-spacerun: yes"> 
+</span>codon.<span style="mso-spacerun: yes">  </span>For each base, the
+fraction of all mutations that<span style="mso-spacerun: yes">  </span>will
+change the codon in such a way that the amino acid does<span
+style="mso-spacerun: yes">  </span>not change is counted. For AAA, 0 of the
+three possible<span style="mso-spacerun: yes">  </span>mutations at the first
+base will lead to a synonymous change, similarly 0 for the second base, and 1/3
+of the mutations for<span style="mso-spacerun: yes">  </span>the third base
+(because an A-&gt; G change leads to a AAG which<span style="mso-spacerun:
+yes">  </span>is also lysine).<span style="mso-spacerun: yes">  </span>So the number
+of synonymous sites in an AAA<span style="mso-spacerun: yes">  </span>codon is
+1/3. The number of replacement sites is 3-1/3 = 2 2/3. Every codon gets a score
+this way, and the final tally is just the sum of scores for all codons.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">   </span><a name=CodonUsageTableForAllLines><b>Codon
+Usage Table For All Lines</b></a><b> <o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">   </span>-------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>A table of
+codon usage for all sequences and counts of synonymous and replacement sites
+summed across all sequences. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span><a name=PolymorphismAnalyses><b>Polymorphism
+Analyses </b></a><b><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>-------------------------- <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Most analyses
+are applied only to those types of sites that<span style="mso-spacerun: yes"> 
+</span>are specified in the SITES OPTIONS menu, but there are exceptions - see
+below.<span style="mso-spacerun: yes">      </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:66.0pt;text-indent:-18.0pt;mso-list:l3 level1 lfo53;
+tab-stops:list 66.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>BASE
+PAIR COMPARISONS - not including N's or indels - counts of the number of bases
+compared and the number of<span style="mso-spacerun: yes">  </span>differences
+for all pairs of sequences. Essentially a<span style="mso-spacerun: yes"> 
+</span>distance matrix. The counts of the numbers of bases compared are based
+on the entire sequence, or a shorter region, depending on the 'x' SITE OPTION,
+and the 'l' and<span style="mso-spacerun: yes">  </span>'m' ANALYSIS
+OPTIONS.<span style="mso-spacerun: yes">  </span>The counts of the number of
+bases<span style="mso-spacerun: yes">  </span>compared are not reduced by other
+SITE OPTIONS choices.<span style="mso-spacerun: yes">  </span>However, the
+counts of site differences are affected by SITE OPTION choices. This table is
+not generated if the 'p' option is used in the OUTPUT OPTIONS.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:66.0pt;text-indent:-18.0pt;mso-list:l3 level1 lfo53;
+tab-stops:list 66.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>GROUP
+DIFFERENCES - not including N's or indels -a matrix with group by group
+comparisons. Above and on the<span style="mso-spacerun: yes">  </span>diagonal
+are the average pairwise differences for those<span style="mso-spacerun: yes"> 
+</span>sites specified under SITE OPTIONS. Below the diagonal is the net
+average pairwise divergence (e.g. Nei, 1987, p.276).<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:66.0pt;text-indent:-18.0pt;mso-list:l3 level1 lfo53;
+tab-stops:list 66.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>GROUP
+DIFFERENCES PER BASE PAIR - same as above but numbers are per base pair. Note
+that the divisor is the average # of base pairs compared, calculated from the
+same numbers above the diagonal in the BASE PAIRS COMPARISON table. Thus these
+per base pair measures may be misleading for some SITE OPTIONS<span
+style="mso-spacerun: yes">  </span>choices. For example, if only synonymous
+sites are analyzed (option 's' under SITE OPTIONS), a per base pair measure of
+divergence can be obtained by dividing numbers in the GROUP DIFFERENCES matrix,
+by the estimated number of synonymous sites, that are given beneath the CODON
+USAGE TABLE.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:66.0pt;text-indent:-18.0pt;mso-list:l3 level1 lfo53;
+tab-stops:list 66.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span>FIXED DIFFERENCES<span style="mso-spacerun:
+yes">  </span>- A fixed difference is a polymorphic site at which all of<span
+style="mso-spacerun: yes">  </span>the sequences of one group are different
+from all of the sequences of a second group. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:66.0pt;text-indent:-18.0pt;mso-list:l3 level1 lfo53;
+tab-stops:list 66.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>SHARED
+POLYMORPHISMS<span style="mso-spacerun: yes">  </span>- A shared polymorphism
+is a polymorphic site at which each of two groups of sequences are found to
+have at least two of the same bases.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:66.0pt;text-indent:-18.0pt;mso-list:l3 level1 lfo53;
+tab-stops:list 66.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span>Fst AND POPULATION MIGRATION RATES - Fst
+values, between pairs of populations, and estimates of<span
+style="mso-spacerun: yes">  </span>Nm, assuming diploidy (i.e. N is the
+effective number of diploid individuals) calculated according to<span
+style="mso-spacerun: yes">  </span>equation 4 (except using a factor of 1/4) of
+Hudson et<span style="mso-spacerun: yes">  </span>al., 1992. This estimate
+should be multiplied by 4/3<span style="mso-spacerun: yes">  </span>to get the
+corresponding number for an X linked locus. It<span style="mso-spacerun: yes"> 
+</span>should be multiplied by 2 to get the corresponding number for a haploid
+locus. Also if the locus is haploid and<span style="mso-spacerun: yes"> 
+</span>sex-limited (e.g. mitochondria), the estimate should be<span
+style="mso-spacerun: yes">  </span>multiplied by 2, and then it applies only to
+the number<span style="mso-spacerun: yes">  </span>of individuals of the sex
+that carry the locus. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:66.0pt;text-indent:-18.0pt;mso-list:l3 level1 lfo53;
+tab-stops:list 66.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>POLYMORPHIC
+SITE FREQUENCIES PER GROUP – FOLDED<span style="mso-spacerun: yes"> 
+</span>&amp; ROOTED -These tables give the counts of the number of lines that
+carry a polymorphism of a certain frequency. For example, a site in which two
+sequences are different from the remaining n-2 sequences is counted in either
+category 2 or category n-2<span style="mso-spacerun: yes">  </span>(depending
+on whether the distribution is folded, or if<span style="mso-spacerun: yes"> 
+</span>not depending on the value of the root sequence.<span
+style="mso-spacerun: yes">  </span>There<span style="mso-spacerun: yes"> 
+</span>are two tables, one for the folded distribution which<span
+style="mso-spacerun: yes">  </span>shows only the frequencies for the rarest
+bases, and one for the rooted distribution.<span style="mso-spacerun: yes"> 
+</span>A rooted distribution is not shown if the analysis includes only one
+group. The table for the rooted<span style="mso-spacerun: yes"> 
+</span>distribution is based on an outgroup sequence chosen from one of the
+other sequence groups.<span style="mso-spacerun: yes">  </span>The method for
+picking<span style="mso-spacerun: yes">  </span>outgroups is very simple. The
+outgroup sequence for one<span style="mso-spacerun: yes">  </span>group is the
+first sequence listed in the most divergent other group.<span
+style="mso-spacerun: yes">  </span>This may not be an ideal outgroup for
+various<span style="mso-spacerun: yes">  </span>reasons. Some properties of
+these distributions are known for<span style="mso-spacerun: yes">  </span>some
+models and the distributions are useful for considering questions about
+changing population size and natural selection. See papers by Tajima and also
+by Fu. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:66.0pt;text-indent:-18.0pt;mso-list:l3 level1 lfo53;
+tab-stops:list 66.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>SITES
+WITH MORE THAN TWO BASES SEGREGATING - A number of analyses assume an infinite
+sites model, under which a polymorphic site is caused by exactly one mutation
+and there can be no more than two bases segregating. This table lists those
+sites that are clearly not consistent with this assumption. If desired, the
+program can be rerun using analysis option 'd' to exclude these sites. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:66.0pt;text-indent:-18.0pt;mso-list:l3 level1 lfo53;
+tab-stops:list 66.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span>D STATISTICS<span style="mso-spacerun: yes"> 
+</span>- These indices are measures of departure from a neutral Fisher-Wright
+model. See Tajima (1989) and Fu and Li (1993).<span style="mso-spacerun: yes"> 
+</span>These statistics rely on a count of the number<span style="mso-spacerun:
+yes">  </span>of polymorphic sites.<span style="mso-spacerun: yes">  </span>The
+counts that are used come directly from the site frequency distribution.
+However<span style="mso-spacerun: yes">  </span>these counts will underestimate
+the actual number of<span style="mso-spacerun: yes">  </span>mutations,
+particularly if some sites are segregating more than two bases within a
+sequence sample group. For<span style="mso-spacerun: yes">  </span>Fu and Li D,
+an outgroup sequence is picked from among<span style="mso-spacerun: yes"> 
+</span>the other groups in the data set (if any occur - see above for
+POLYMORPHIC SITE FREQUENCIES).<span style="mso-spacerun: yes">  </span>Note,
+the outgroup sequence that is picked may not be ideal, depending on the divergence
+among<span style="mso-spacerun: yes">  </span>groups. Also given are counts of
+the different classes of mutations, as defined by Fu and Li. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:66.0pt;text-indent:-18.0pt;mso-list:l3 level1 lfo53;
+tab-stops:list 66.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>THETA
+(4Nu) ESTIMATES - Two different estimates of the neutral mutation parameter
+4Nu: Watterson’s and nucleotide diversity or pi.<span style="mso-spacerun:
+yes">  </span>See, for example, Hudson (1990) or Tajima (1993). Also listed are
+the number of sequences for each group and the number of bases, which is
+calculated by taking the average of the number of bases compared in the<span
+style="mso-spacerun: yes">  </span>pairwise comparison matrix. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">       </span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">   </span><a name=HistoricalPopulatioModelFitting><b>Historical
+Population Model Fitting</b></a><b><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">   </span>----------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>This
+section provides the results of the fitting of specific<span
+style="mso-spacerun: yes">  </span>historical models to the data. These models
+are described in Wakeley and Hey (1997). The methods work best for data<span
+style="mso-spacerun: yes">  </span>sets for which the models are a close fit to
+reality, and for which there are many polymorphisms and lots of<span
+style="mso-spacerun: yes">  </span>recombination. For most data sets, the
+models do not fit very well, and the fitting methods are not able to return a
+reasonable solution.<span style="mso-spacerun: yes">    </span><o:p></o:p></span></p>
+
+<ul style="margin-top:0cm" type="disc">
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>ISOLATION SPECIATION MODEL
+     FITTING<span style="mso-spacerun: yes"> &nbsp;</span></span>
+    <ul type="circle">
+      <li>NOTE - with the distribution of the WH program, this routine is now out
+      of date. An improved Isolation Model Fitting analysis can be done by the
+      WH program.</li>
+      <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>This is an analysis in
+     which, for each group of sequences, a<span style="mso-spacerun: yes"> 
+     </span>specific speciation model is fit to the data.<span
+     style="mso-spacerun: yes">  </span>A table is<span style="mso-spacerun:
+     yes">  </span>printed in which the observed numbers of exclusive,<span
+     style="mso-spacerun: yes">  </span>shared, and fixed polymorphisms are
+     given for each pair of sequence groups.<span style="mso-spacerun: yes"> 
+     </span>Also given are the parameter estimates<span style="mso-spacerun:
+     yes">  </span>under the Isolation Speciation Model, and the expected<span
+     style="mso-spacerun: yes">  </span>values of the polymorphism types under
+     that model. The<span style="mso-spacerun: yes">  </span>model is described
+     in detail in Wakeley and Hey (1997).<span style="mso-spacerun: yes"> 
+     </span>The main assumptions are that two species, each with<span
+     style="mso-spacerun: yes">  </span>constant population sizes, underwent
+     speciation at a<span style="mso-spacerun: yes">  </span>single time point,
+     and that prior to that time the common ancestor also had a constant
+     population size. The model<span style="mso-spacerun: yes">  </span>has
+     four parameters: Theta1 (the neutral mutation<span style="mso-spacerun:
+     yes">  </span>parameter 4N_1u for group 1); Theta2 (4N_2u for group
+     2);<span style="mso-spacerun: yes">  </span>ThetaA (4N_Au for the
+     ancestral species); and Tau (2Tu,<span style="mso-spacerun: yes"> 
+     </span>where T is the number of generations since speciation.<span
+     style="mso-spacerun: yes">  </span>Note that Tau/Theta1 = T/(2N_1) the
+     time in units of 2N_1 generations). This analysis does not really check to
+     see<span style="mso-spacerun: yes">  </span>if the model fits the data. It
+     simply provides estimates<span style="mso-spacerun: yes">  </span>assuming
+     the model is true.<span style="mso-spacerun: yes">  </span>There are
+     several situations in which the parameters either cannot be estimated or
+     the<span style="mso-spacerun: yes">  </span>estimates cannot be
+     trusted.<span style="mso-spacerun: yes">  </span>No estimates are made
+     if<span style="mso-spacerun: yes">  </span>there are either zero shared
+     polymorphisms or zero fixed<span style="mso-spacerun: yes"> 
+     </span>differences. Also there are a variety of patterns that can<span
+     style="mso-spacerun: yes">  </span>arise in the data and for which
+     suitable parameters cannot<span style="mso-spacerun: yes">  </span>be
+     found.<span style="mso-spacerun: yes">  </span>In general these can be
+     identified because the<span style="mso-spacerun: yes">  </span>expected
+     values of the observations will not equal the<span style="mso-spacerun:
+     yes">  </span>observations.<span style="mso-spacerun: yes">  </span>The
+     program will point this pattern out,<span style="mso-spacerun: yes"> 
+     </span>if it occurs. One common data pattern that causes this<span
+     style="mso-spacerun: yes">  </span>is if the shared polymorphisms are high
+     relative to the<span style="mso-spacerun: yes">  </span>exclusive or fixed
+     classes.<span style="mso-spacerun: yes">  </span>This is a reasonable<span
+     style="mso-spacerun: yes">  </span>occurrence if the sequence groups have
+     had migration<span style="mso-spacerun: yes">  </span>between them, but it
+     is very unlikely if the Isolation<span style="mso-spacerun: yes"> 
+     </span>Speciation Model is true. This analysis works best on data sets
+     that have lots of<span style="mso-spacerun: yes">  </span>polymorphism and
+     lots of recombination.<span style="mso-spacerun: yes">  </span>The effect
+     of<span style="mso-spacerun: yes">  </span>recombination is to drop,
+     considerably, the variance of<span style="mso-spacerun: yes">  </span>the
+     observed numbers of polymorphisms, so that if the<span
+     style="mso-spacerun: yes">  </span>model is true, the observed<span
+     style="mso-spacerun: yes">  </span>numbers will tend to be<span
+     style="mso-spacerun: yes">  </span>close to those expected of the
+     true<span style="mso-spacerun: yes">  </span>parameters. Without<span
+     style="mso-spacerun: yes">  </span>recombination, the high variance
+     of<span style="mso-spacerun: yes">  </span>the observed <span
+     style="mso-spacerun: yes"> </span>polymorphism classes can cause a poor
+     fit<span style="mso-spacerun: yes">  </span>of the model,<span
+     style="mso-spacerun: yes">  </span>or extreme parameter estimates, even if
+     the model is true.<span style="mso-spacerun: yes">  </span><o:p></o:p></span></li>
+    </ul>
+  </li>
+  <li><span
+     style='mso-fareast-font-family:"MS Mincho"'>POPULATION SIZE CHANGE MODEL
+     FITTING - This is an analysis in which, for each group of sequences,
+     a<span style="mso-spacerun: yes">  </span>specific model of a change in
+     population size is fit to<span style="mso-spacerun: yes">  </span>the
+     data.<span style="mso-spacerun: yes">  </span>The table in the results
+     file contains for<span style="mso-spacerun: yes">  </span>each group, the
+     observed numbers of polymorphisms in<span style="mso-spacerun: yes"> 
+     </span>classes S_1, S_2 and S_3.<span style="mso-spacerun: yes"> 
+     </span>In general S_i = the numbers of polymorphisms in frequency class
+     i,7-i (except when the<span style="mso-spacerun: yes">  </span>total sample
+     size is 6 when S_i is the numbers for class<span style="mso-spacerun:
+     yes">  </span>i,6-i).<span style="mso-spacerun: yes">  </span>When a group
+     has more than 6 sequences, the full<span style="mso-spacerun: yes"> 
+     </span>site frequency distribution (see POLYMORPHIC SITE<span
+     style="mso-spacerun: yes">  </span>FREQUENCIES PER GROUP) is reduced to
+     the expected values<span style="mso-spacerun: yes">  </span>for just these
+     three classes as if the samples where of<span style="mso-spacerun: yes"> 
+     </span>size 7.<span style="mso-spacerun: yes">  </span>The use of 3
+     classes and a sample size of 7 is<span style="mso-spacerun: yes"> 
+     </span>for convenience in estimating the three parameters under<span
+     style="mso-spacerun: yes">  </span>the model (Wakeley and Hey, 1997).<span
+     style="mso-spacerun: yes">  </span>The model assumes that there was an
+     ancestral constant population size, a time of change of population size,
+     followed by a new recent<span style="mso-spacerun: yes">  </span>constant
+     population size. The three parameters are Theta<span style="mso-spacerun:
+     yes">  </span>(recent 4Nu), ThetaA (ancestral 4N_Au) and Tau (2Tu, where<span
+     style="mso-spacerun: yes">  </span>T is the number of generations since
+     speciation. Note that<span style="mso-spacerun: yes">  </span>Tau/Theta1 =
+     T/(2N) the time in units of 2N generations). The model, and the model
+     fitting, have much in common with the ISOLATION SPECIATION MODEL.<span
+     style="mso-spacerun: yes">  </span>The same cautions about<span
+     style="mso-spacerun: yes">  </span>polymorphism and recombination apply.<span
+     style="mso-spacerun: yes">  </span>The more of both,<span
+     style="mso-spacerun: yes">  </span>the better. It turns out that there are
+     many values for<span style="mso-spacerun: yes">  </span>S_2 and S_3
+     (relative to S_1) that are simply not<span style="mso-spacerun: yes"> 
+     </span>permitted under the model. For example it is not possible to have
+     an expected value of either S_2 or S_3 that is<span style="mso-spacerun:
+     yes">  </span>greater than S_1, and so if this observation occurs,
+     the<span style="mso-spacerun: yes">  </span>model cannot be fit.<span
+     style="mso-spacerun: yes">  </span><o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal style='margin-left:18.0pt'><span style='mso-fareast-font-family:
+"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span><a name=Recombination><b>Recombination</b></a><b><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>-----------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt;text-indent:-18.0pt;mso-list:l9 level1 lfo58;
+tab-stops:list 54.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>POPULATION
+RECOMBINATION PARAMETER (4Nc) ESTIMATES<span style="mso-spacerun: yes"> 
+</span>- Two estimates of 4Nc the population recombination rate are generated: gamma
+(Hey &amp; Wakeley, 1997) and Hud4Nc (Hudson 1987).<span style="mso-spacerun:
+yes">  </span>c is the crossing over rate for the sequenced region<span
+style="mso-spacerun: yes">  </span>per generation. These estimates assume
+diploidy, and<span style="mso-spacerun: yes">  </span>must be adjusted
+otherwise. Also listed is the estimated<span style="mso-spacerun: yes"> 
+</span>ratio of the number of recombination events per mutation<span
+style="mso-spacerun: yes">  </span>(c/u). This is calculated simply by dividing
+gamma by Theta<span style="mso-spacerun: yes">  </span>(i.e. estimated 4Nc, divided
+by estimated 4Nu).<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt'><span style='mso-fareast-font-family:
+"MS Mincho"'>A very important assumption of these methods is that just a<span
+style="mso-spacerun: yes">  </span>single mutation has caused each polymorphism
+within a group. gamma in particular is quite sensitive to a violation of<span
+style="mso-spacerun: yes">  </span>this infinite sites assumption.<span
+style="mso-spacerun: yes">  </span>Hud4Nc may not be as<span
+style="mso-spacerun: yes">  </span>sensitive, however this estimator suffers
+from extreme<span style="mso-spacerun: yes">  </span>bias (estimates tend to be
+way too high) if the numbers of sequences or polymorphisms are low (Hudson,
+1987). <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt'><span style='mso-fareast-font-family:
+"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt;text-indent:-18.0pt;mso-list:l9 level1 lfo58;
+tab-stops:list 54.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>CONGRUENCY
+AND INTERVAL TABLES<span style="mso-spacerun: yes">   </span>For each group,
+two tables are printed out.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:90.0pt;text-indent:-18.0pt;mso-list:l9 level2 lfo58;
+tab-stops:list 90.0pt'><![if !supportLists]><span style='font-family:"Courier New";
+mso-fareast-font-family:"MS Mincho";mso-bidi-font-family:"Times New Roman"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]><span
+style='mso-fareast-font-family:"MS Mincho"'>TABLE OF INFORMATIVE SITES. - This
+is a matrix that I sometimes find useful for thinking about recombination. It
+lists all informative polymorphic sites and the values carried by each
+sequence. A site is considered informative if there are at least two bases that
+occur in at least two of the sequences. 'rarecount' is the number of times the
+less common base occurs. The matrix tells whether each pair of sites is
+congruent. Two sites are congruent if together they do not reveal all four
+gametic types. For example a G-C polymorphism and an A-T polymorphism would be
+congruent if there occur individuals of just three of the possible gametic
+types (e.g. GT, GA, and CT, but not CA). Under the infinite sites model all
+four types can only occur if there has been crossing over or gene conversion.
+The matrix has a '*' or a '+' at pairs of congruent sites, and a blank for
+incongruent pairs. Each site with itself gets an 'S'. Thus a completely
+congruent data set would be all S's and *'s. The more recombination the more
+there is a tendency for blocks of *'s and +'s to be broken up. It can be a
+handy visual aid, but is unwieldy with too many polymorphisms. It also assumes
+an infinite sites mutation model.<span style="mso-spacerun: yes">  </span>The
+matrix can be enormous if there are<span style="mso-spacerun: yes">  </span>a
+great many polymorphisms.<span style="mso-spacerun: yes">  </span>The program
+will only print<span style="mso-spacerun: yes">  </span>up to 245 columns (i.e.
+245 informative polymorphic<span style="mso-spacerun: yes"> 
+</span>sites).<span style="mso-spacerun: yes">  </span>The matrix does not deal
+well with sites that exhibit more than 2 bases in a group. One of the bases
+gets arbitrarily lumped with one of the others. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:90.0pt;text-indent:-18.0pt;mso-list:l9 level2 lfo58;
+tab-stops:list 90.0pt'><![if !supportLists]><span style='font-family:"Courier New";
+mso-fareast-font-family:"MS Mincho";mso-bidi-font-family:"Times New Roman"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]><span
+style='mso-fareast-font-family:"MS Mincho"'>MINIMAL SET OF RECOMBINATION
+INTERVALS<span style="mso-spacerun: yes">  </span>- This table lists the
+smallest set of locations of<span style="mso-spacerun: yes"> 
+</span>recombination events in the history of the sample.<span
+style="mso-spacerun: yes">   </span>See Hudson and Kaplan (1987) for full
+details.<span style="mso-spacerun: yes">  </span>Under the<span
+style="mso-spacerun: yes">  </span>model, each interval must bracket at least
+one<span style="mso-spacerun: yes">  </span>recombination event.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span><a name=LinkageDisequilibriumAnalyses><b>Linkage
+Disequilibrium Analyses</b></a><b><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">    
+</span>-------------------------------------<span style="mso-spacerun: yes">  
+</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt;text-indent:-18.0pt;mso-list:l9 level1 lfo58;
+tab-stops:list 54.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>AVERAGE
+LINKAGE DISEQUILIBRIUM BETWEEN REGIONS<span style="mso-spacerun: yes">  
+</span>- If the 'y' or 't' option is listed in the LD Menu, then an analysis is
+conducted of the mean LD between regions of the sequence.<span
+style="mso-spacerun: yes">  </span>These regions are listed in a separate file,
+the name of which is either given on the command line (-G flag) or
+requested.<span style="mso-spacerun: yes">  </span>For each region, and each
+pair of regions the mean LD is calculated between all pairs of sites. These
+values are listed in a matrix that also shows separately for each group how
+many sites could be compared for each mean<span style="mso-spacerun: yes"> 
+</span>(if there are less than 10 pairs of sites, the mean is not shown). <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt'><span style='mso-fareast-font-family:
+"MS Mincho"'>A different table is generated for every LD measure that was
+called for (LD MENU or '-L' command line flag).<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt'><span style='mso-fareast-font-family:
+"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt'><span style='mso-fareast-font-family:
+"MS Mincho"'>If the 't' option is listed in the LD Menu, then a randomization
+test is conducted of the mean LD values. For each randomization mean LD is
+calculated within and between<span style="mso-spacerun: yes">  </span>each
+region, and the simulated mean values are compared to the<span
+style="mso-spacerun: yes">  </span>actual values. For randomizations within
+regions, the base values for each<span style="mso-spacerun: yes"> 
+</span>polymorphic site within a group are randomly shuffled among<span
+style="mso-spacerun: yes">  </span>the sequences of that group.<span
+style="mso-spacerun: yes">  </span>For randomizations between regions the
+complete sequences for each region, within each group, are randomly shuffled so
+that the sequences remain intact but they linkage with respect to other regions
+is randomized. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt'><span style='mso-fareast-font-family:
+"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt'><span style='mso-fareast-font-family:
+"MS Mincho"'>A total of 1000 LD region randomizations are done. If screen<span
+style="mso-spacerun: yes">  </span>output is not suppressed the number of
+simulations are listed on the screen. These tests can take seconds or days
+depending on the size of the data set and the speed of the computer, so it is
+best not to turn of screen output. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt'><span style='mso-fareast-font-family:
+"MS Mincho"'><span style="mso-spacerun: yes"> </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt'><span style='mso-fareast-font-family:
+"MS Mincho"'>the test results are shown in the tables of means, with symbols to
+indicate the level and direction of significant departure<span
+style="mso-spacerun: yes">  </span>from random.<span style="mso-spacerun:
+yes">  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt;text-indent:-18.0pt;mso-list:l9 level1 lfo58;
+tab-stops:list 54.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>MATRICES
+OF LINKAGE DISEQUILIBRIUM VALUES AND TESTS -These matrices will be large if
+there are many polymorphic sites within a group. They are printed out in a
+separate file, the name of which is either given on the command line ('-E'
+flag) or is requested by the program in response to the 'm' option in the
+LD<span style="mso-spacerun: yes">    </span>OPTION MENU.<span
+style="mso-spacerun: yes">  </span>For each group there is a matrix of tests of
+association. Fisher's Exact Test is shown above the diagonal, and a chi-square
+test is shown below the diagonal. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt'><span style='mso-fareast-font-family:
+"MS Mincho"'>For each group and each LD measure requested, a matrix is given
+that shows the value of LD between all pairs of sites for which values could be
+calculated.<span style="mso-spacerun: yes">  </span>Values are shown to just 1
+figure so as to have the matrix in manageable space.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt'><span style='mso-fareast-font-family:
+"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt'><span style='mso-fareast-font-family:
+"MS Mincho"'>Following each matrix is given the mean LD value for that matrix.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt;text-indent:-18.0pt;mso-list:l9 level1 lfo58;
+tab-stops:list 54.0pt'><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:"MS Mincho"'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>LD
+ANALYSES AMONG<span style="mso-spacerun: yes">  </span>SHARED<span
+style="mso-spacerun: yes">  </span>POLYMORPHISMS<span style="mso-spacerun:
+yes">  </span>- A series of matrices are listed, each containing LD
+calculations involving shared polymorphisms between species. These can be
+useful in trying to figure out whether shared polymorphisms are due to gene
+flow or due to shared ancestry.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span><a name=GCContentAnalysis><b>GC Content
+Analysis</b></a><b><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>-----------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>A table of
+the number of bases at each codon position, and the<span style="mso-spacerun:
+yes">  </span>GC percentage for each DNA sequence.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span><a
+name=FormattedValuesforInputtoHKAProgra><b>Formatted Values for Input to HKA
+Program</b></a><b><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">    
+</span>--------------------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>The HKA
+program carries out the HKA test (Hudson et al., 1987) for multiple loci. It can
+be conducted for pairs of species or for one species and a single outgroup
+sequence.<span style="mso-spacerun: yes">  </span>HKA program input lines are
+generated for all possible pairs of groups.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span><a
+name=FormattedValuesforInputtoWHProgram><b>Formatted Values for Input to WH
+Program</b></a><b><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>------------------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>The WH
+program carries out the analyses described in Wakeley and Hey<span
+style="mso-spacerun: yes">  </span>(1997) and in Wang, Wakeley and Hey (1997).
+WH input lines are generated for all possible pairs of species.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span></span><a name=ProgramLimitations>Program
+Limitations</a><span style='mso-bookmark:ProgramLimitations'></span><span
+style='mso-fareast-font-family:"MS Mincho"'><span style="mso-spacerun:
+yes">             </span><a href="#Contents">Return to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________
+<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>The
+program requires that the DNA sequences be aligned prior to analysis. SITES
+does not carry out any phylogenetic analysis. It does not estimate trees, and
+it does not endeavor any assessment of multiple hits.<span style="mso-spacerun:
+yes">  </span>In general the situations for which SITES is intended are ones in
+which there have not<span style="mso-spacerun: yes">  </span>been many cases of
+multiple mutations at base positions and where there have<span
+style="mso-spacerun: yes">  </span>not been so many insertion/deletion events
+that alignment is difficult. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>The
+program can handle large amounts of data, depending on available RAM.&nbsp; If
+there is sufficient RAM then the distributed version of the program&nbsp; can
+handle up to 200 sequences, each of 20,000 base pairs, and up to 20
+groups.&nbsp; These values can be increased by changing constants in sites.h and
+recompiling the program.&nbsp;&nbsp;</span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>The
+program is quick for basic polymorphism analyses. Recombination,<span
+style="mso-spacerun: yes">  </span>Population Model Fitting, and Linkage
+Disequilibrium analyses can be time consuming for large data sets.<span
+style="mso-spacerun: yes">   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>If you
+have a data set that crashes or hangs the program, you can send it to me with a
+description of the problem. Depending on time, I'll try and<span
+style="mso-spacerun: yes">  </span>find the problem. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span><a name=LiteratureCited>Literature Cited</a><span
+style="mso-spacerun: yes">                </span><a href="#Contents">Return to
+Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Fu, Y. X.,
+and W. H. Li, 1993 Statistical tests of neutrality of mutations.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>Genetics 133: 693-709. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Hey, J. and
+J. Wakeley. 1997. A coalescent estimator of the population <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>recombination rate.<span
+style="mso-spacerun: yes">  </span>Genetics 145, 833-846.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Hedrick,
+P. W., 2000<span style='mso-tab-count:1'>   </span>Genetics of Populations.
+Jones and Bartlett, Sudbury, MA.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Hudson, R.
+R., 1987 Estimating the recombination parameter of a finite<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>population model without selection.
+Genet. Res. Camb. 50: 245-250. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Hudson,R.R.
+1990 Gene genealogies and the coalescent process. In: Oxford <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>Surveys in Evolutionary Biology. Vol. 7.
+(Eds: Harvey,PH; Partridge,L) <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>Oxford University Press, New York, (1-44)
+<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Hudson, R.
+R., and N. L. KAPLAN, 1985 Statistical properties of the number of<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>recombination events in the history of a
+sample of DNA sequences.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>Genetics 111: 147-164. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Hudson, R.
+R., M. Kreitman and M. Aguadé, 1987 A test of neutral molecular <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">      </span>evolution based on nucleotide data.
+Genetics 116: 153-159.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Hudson,R.R.,
+M.Slatkin and W.P. Maddison 1992 Estimation of levels of gene<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>flow from DNA sequence data. Genetics
+132: 583-589. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Kliman,R.M.
+and J. Hey 1993 DNA sequence variation at the period locus within<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>and among species of the Drosophila
+melanogaster complex. Genetics 133:<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>375-387. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Nei,M
+1987. Molecular Evolutionary Genetics. Columbia University<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">      </span>Press, New York.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Schaeffer,S.W.
+and E.L. Miller 1992 Estimates of gene flow in Drosophila<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>pseudoobscura determined from nucleotide
+sequence analysis of the<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>alcohol dehydrogenase region. Genetics
+132: 471-480. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Tajima,
+F., 1989 Statistical method for testing the neutral mutation<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>hypothesis by DNA polymorphism. Genetics
+123: 585-595. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Tajima,F
+1993 Measurement of DNA polymorphism. In: Mechanisms of Molecular<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>Evolution. (Eds: Takahata,N; Clarke,AG)
+Sinauer Associates, Sunderland,<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>MA, 37-59. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Watterson,
+G. A., 1975 On the number of segregating sites in genetical models<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">     </span>without recombination. Theor. Pop. Biol.
+7: 256-275. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Wakeley,
+J. and J. Hey. 1997 Estimating ancestral population parameters.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">      </span>Genetics 145, 847-855.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Wang, R.
+L., J. Wakeley and J. Hey, 1997 Gene flow and natural selection <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">      </span>in the origin of Drosophila
+pseudoobscura and close relatives. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">      </span>Genetics 147: 1091-106.<o:p></o:p></span></p>
+
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">This page last changed <!--webbot bot="Timestamp"
+S-Type="EDITED" S-Format="%B %d, %Y" startspan -->February 04, 2004<!--webbot bot="Timestamp" endspan i-checksum="41404" -->
+</p>
+
+<!--msnavigation--></td></tr><!--msnavigation--></table></body>
+
+</html>

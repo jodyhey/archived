@@ -1,0 +1,1235 @@
+<html 
+
+<head>
+
+<head>
+<title>**SITES** -- DNA POLYMORPHISM ANALYSIS PROGRAM -- </title>
+
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-alt:"\FF2D\FF33 \660E\671D";
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"MS Mincho";
+	mso-font-kerning:0pt;}
+h3
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:13.0pt;
+	font-family:Arial;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+p.SITESHTMLSECTION, li.SITESHTMLSECTION, div.SITESHTMLSECTION
+	{mso-style-name:"SITES HTML SECTION";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:13.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 65.95pt 72.0pt 65.95pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:211116254;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-648896318 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:321394806;
+	mso-list-type:hybrid;
+	mso-list-template-ids:823017362 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2
+	{mso-list-id:347996733;
+	mso-list-type:hybrid;
+	mso-list-template-ids:390243898 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l3
+	{mso-list-id:469052690;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1728278214 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:66.0pt;
+	mso-level-number-position:left;
+	margin-left:66.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l4
+	{mso-list-id:595602924;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-146105552 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:51.0pt;
+	mso-level-number-position:left;
+	margin-left:51.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l5
+	{mso-list-id:618684836;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-407597496 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l6
+	{mso-list-id:804352113;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-398953594 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l7
+	{mso-list-id:823350717;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-38734328 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l8
+	{mso-list-id:838884500;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1458300866 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l8:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l9
+	{mso-list-id:940264044;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1706231478 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l9:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:54.0pt;
+	mso-level-number-position:left;
+	margin-left:54.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l9:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:90.0pt;
+	mso-level-number-position:left;
+	margin-left:90.0pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l10
+	{mso-list-id:1128544563;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1279062436 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l10:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l10:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l10:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l11
+	{mso-list-id:1488663586;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1533157438 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l11:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l12
+	{mso-list-id:1667249413;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1547973984 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l12:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l12:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l13
+	{mso-list-id:1712421168;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-286643452 67698689 -1240693162 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l13:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l13:level2
+	{mso-level-start-at:2;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"MS Mincho";}
+@list l14
+	{mso-list-id:2050647515;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1893314154 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l14:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l15
+	{mso-list-id:2080323462;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1095705302 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l15:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l15:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<link rel="stylesheet" type="text/css" href="../../../heylab_1.css">
+<meta name="Microsoft Border" content="t, default">
+</head>
+
+<body lang=EN-US style='tab-interval:36.0pt'><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td bgcolor="#EAEAEA">
+<div style="width:1150; height:106; border-top-style:solid; border-top-color:#800000; border-bottom-style:solid; border-bottom-color:#800000">
+<font face="Times New Roman" size="5">&nbsp;&nbsp;&nbsp; Jody 
+Hey&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><i>&nbsp; </i>
+</b></font> <b>
+<font color="#800000" size="5" face="Times New Roman"><span style="font-style: italic">Evolutionary Genetics 
+Laboratory</span></font></b><p><font face="Times New Roman" size="5">
+<dfn style="font-style: normal">&nbsp;Professor&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp;&nbsp; 
+Department of Genetics&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp;&nbsp; Rutgers University </dfn></font></p>
+<p><span style="font-style: italic">
+<font face="Times New Roman" color="#800000">
+<a href="../../../index.html"><img src="../../../_derived/index.html_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Hey Lab" align="middle"></a> <a href="../../../JodyHeyResearchAreas.htm"><img src="../../../_derived/JodyHeyResearchAreas.htm_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Research" align="middle"></a> <a href="../../../JHPapers.htm"><img src="../../../_derived/JHPapers.htm_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Publications" align="middle"></a> <a href="../../../HeylabSoftware.htm"><img src="../../../_derived/HeylabSoftware.htm_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Software, Data" align="middle"></a> <a href="../../../HeylabPeople.htm"><img src="../../../_derived/HeylabPeople.htm_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Contacts, People" align="middle"></a></font></span></p>
+</div>
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><!--msnavigation--><td valign="top">
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>**FPG**
+-- A COMPUTER PROGRAM FOR FORWARD POPULATION GENETIC SIMULATION-- <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>DOCUMENTATION<span
+style="mso-spacerun: yes">  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span><o:p></o:p></span></p>
+
+<p class=MsoNormal>Jody Hey</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Department
+of Genetics<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Rutgers
+University<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Nelson
+Biological Labs<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>604
+Allison Rd.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Piscataway,
+NJ<span style="mso-spacerun: yes">  </span>08854-8082<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>732-445-5272<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>fax
+732-445-5870<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><a href="mailto:hey@biology.rutgers.edu">hey@biology.rutgers.edu</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><a href="../../../index.html">http://lifesci.rutgers.edu/~heylab</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span>* This computer program and documentation may
+be freely copied and used by anyone, provided no fee is charged for it. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<h3><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span><a name=Contents>Contents<o:p></o:p></a></span></h3>
+
+<span style='mso-bookmark:Contents'></span>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________
+<![if !supportEmptyParas]>&nbsp;</span></p>
+
+<ul>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a
+href="#Overview">Overview</a></span>
+    <ul>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="#Life Cycle">Life
+        Cycle</a></span></li>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="#Fitness Schemes">Fitness
+        Schemes</a></span></li>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="#Genome Structure">Genome
+        Structure</a></span></li>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="#Making Measurements">Making
+        Measurements</a></span></li>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="#The Practicalities of Population Size">The
+        Practicalities of Population Size</a></span></li>
+    </ul>
+  </li>
+  <li>
+    <p class="MsoNormal"><a
+href="#FilesinthisPackage"><span style="mso-fareast-font-family: MS Mincho">Downloadable Files</span></a><span style='mso-fareast-font-family:"MS Mincho"'><o:p></o:p></span></li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a
+href="#RunningtheProgram">Running the Program</a></span>
+    <ul>
+      <li>
+        <p class="MsoNormal"><a href="#Key Parameters">Key Parameters</a></li>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="#Runtime parameters">Runtime
+        Parameters</a></span></li>
+      <li>
+        <p class="MsoNormal"><a href="#Cautions">Cautions</a><a href="#Runtime parameters"><span style='mso-fareast-font-family:"MS Mincho"'><o:p></o:p></span></a></li>
+    </ul>
+  </li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a href="#Output">Output</a></span></li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a href="#&nbsp;Program Limitations">Program
+Limitations</a></span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="#Literature Cited">Literature
+    Cited</a></span><span style='mso-fareast-font-family:"MS Mincho"'><o:p></o:p><o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>______________________<o:p></o:p></span></p>
+
+<h3><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span><a name=Overview>Overview</a> <span
+style='mso-tab-count:1'>   </span><o:p></o:p></span></h3>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal>FPG (for Forward Population Genetic simulation) simulates a
+population of constant size that is undergoing mutation, recombination,
+natural selection, and (if called for) migration between populations.&nbsp;&nbsp; The meaning of &quot;forward&quot; in this
+context is simply that time, within the simulation, moves forward just as it
+does in the real world.&nbsp; This is in contrast to coalescent population
+genetic simulation in which time, as represented within the simulation, proceeds
+back into the past.&nbsp; Coalescent simulations have many advantages, but they
+are unwieldy if they incorporate natural selection on multiple sites.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>FPG is useful for assessing the impact of natural selection
+on patterns of genetic variation.&nbsp; Since many selected sites can be
+segregating at one, the program is useful for understanding the Hill-Robsertson
+effect (Hill and Robertson, 1966) under genetic hitchhiking (Maynard Smith and
+Haigh, 1974) or background selection (Charlesworth, Morgan and Charlesworth,
+1993). &nbsp; It is designed so as to be able to
+approximate real world situations with fairly large population sizes and high
+mutation rates over long stretches of DNA.&nbsp; The mutation model is an
+infinite sites model, meaning that no site that is segregating in the population
+can receive another mutation.&nbsp;&nbsp;</p>
+
+<h3><a name="Life Cycle">Life Cycle</a></h3>
+
+<p class=MsoNormal>The basic life cycle alternates between haploid genomes
+(gametes) and diploid genomes (zygotes), and proceeds as follows:</p>
+
+<ul>
+  <li>
+    <p class="MsoNormal">Gametes are randomly paired into zygotes</li>
+  <li>
+    <p class="MsoNormal">Fitness is measured for each zygote as a
+    function of the mutations it carries. If dominance is set to 0.5, then the
+    model is similar in most respects to a haploid selection model.&nbsp;</li>
+  <li>
+    <p class="MsoNormal">Reproductive success is the number of gametes
+    contributed to the next generation, and is determined for every zygote by
+    drawing from a multinomial distribution with expectations that are the
+    relative fitness values of each fitness class.</li>
+  <li>
+    <p class="MsoNormal">Recombination and mutation occur during the production
+    of gametes</li>
+  <li>
+    <p class="MsoNormal">If there are multiple populations, gametes are drawn at
+    random from each population and placed at random into other populations.
+    Those gametes that are displaced by migrants are lost, so migration adds an
+    extra element of genetic drift. This is an island-model of migration&nbsp;</li>
+  <li>
+    <p class="MsoNormal">New zygotes are formed by random union of gametes.</li>
+</ul>
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Generations are non-overlapping.</p>
+
+<h3><a name="Fitness Schemes">Fitness Schemes</a></h3>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>The current mutation model accommodates three mutation rates
+for mutations that are neutral, deleterious, and beneficial.&nbsp; The
+deleterious and beneficial mutations have identical selection coefficients that
+are used with opposite effect.&nbsp;&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Three different fitness schemes are incorporated: additive,
+multiplicative, and epistatic. In each scheme, the basic parameters are a selection
+coefficient, s &gt;= 0,&nbsp; and the dominance, 0&lt;= h&lt;=1.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<blockquote>
+  <p class=MsoNormal>Four quantities are measured for every zygote:</p>
+
+  <ul>
+    <li>
+      <p class="MsoNormal">op=# of homozgyous positions for selected positive mutation</li>
+    <li>
+      <p class="MsoNormal">ep= # of heterozygous positions for selected positive mutation</li>
+    <li>
+      <p class="MsoNormal">on=# of homozgyous positions for selected negative mutation</li>
+    <li>
+      <p class="MsoNormal">en= # of heterozygous positions for selected negative mutation</li>
+  </ul>
+  <h4>Additive Fitness Scheme</h4>
+  <p>W = 1 + (op - on) * s + (ep - en) * h*s</p>
+  <h4>Multiplicative Fitness Scheme</h4>
+  <ul>
+    <li>
+      <p class="MsoNormal">selection coefficients:&nbsp;
+      <ul>
+        <li>
+          <p class="MsoNormal"> ps = 1.0+s&nbsp;&nbsp;</li>
+        <li>
+          <p class="MsoNormal">ns = 1.0/ps;</li>
+      </ul>
+    </li>
+    <li>
+      <p class="MsoNormal">dominance terms:&nbsp;
+      <ul>
+        <li>
+          <p class="MsoNormal">ph = (1.0+h*s)/(1.0 + s)</li>
+        <li>
+          <p class="MsoNormal">nh = (1.0+ s)/(1.0 + h*s);<br>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <p class="MsoNormal">W= ps^op * ns^on * (ph*ps)^ep * (ns*nh)^en<br>
+  </p>
+  <p class="MsoNormal">For values of s near 0, this is well approximated
+  by&nbsp;</p>
+  <p class="MsoNormal">&nbsp;</p>
+  <p class="MsoNormal">W = Exp(s*((op-on) + h*(ep-en)))</p>
+  <h4><br>
+  Epistatic Fitness Scheme</h4>
+  <p class="MsoNormal">The epistatic model requires an additional parameter, y,
+  that is the exponent in a power function.</p>
+  <p class="MsoNormal">&nbsp;</p>
+  <p class="MsoNormal">The development of a general epistatic function begins by
+  considering the exponential form of the multiplicative fitness
+  scheme.&nbsp;&nbsp; Consider, in the absence of dominance,&nbsp; W=Exp(s*(op-on)).&nbsp;
+  Then if we include the epistatic factor, y, we get</p>
+  <p class="MsoNormal">W=Exp(s*(op-on)^y)</p>
+  <p class="MsoNormal">&nbsp;</p>
+  <p class="MsoNormal">However, this expression will not work if the term to be
+  raised to the y power has a negative value. This can be dealt with directly,
+  if awkwardly&nbsp; by using&nbsp;</p>
+  <p class="MsoNormal">&nbsp;</p>
+  <p class="MsoNormal">W=Exp( SIGN(op-on) s *|op-on|^y))</p>
+  <p class="MsoNormal">&nbsp;</p>
+  <p class="MsoNormal">In other words, for every increase in (op-on) the effect
+  on fitness is more than multiplicative if y&gt;1 (positive or synergistic
+  epistatis) and less than multiplicative&nbsp; if&nbsp; 0&lt;y&lt;1 (negative
+  epistasis).</p>
+  <p class="MsoNormal">&nbsp;</p>
+  <p class="MsoNormal">To include dominance we simply use the corresponding
+  expression of the multiplicative fitness scheme with dominance.</p>
+  <p class="MsoNormal">&nbsp;</p>
+  <p class="MsoNormal">W=Exp( SIGN((op-on) + h(ep-en)) s * |(op-on) + h(ep-en)|^y
+  )</p>
+</blockquote>
+<p class="MsoNormal">&nbsp;</p>
+<h3><a name="Genome Structure">Genome Structure</a></h3>
+
+<p>Each gamete consists of a haploid copy of the genome.&nbsp; The genome
+consists of one or more chromosomes, each consisting of a number of
+segments.&nbsp; Each segment can hold up to 32 mutations. Large genomes with
+hundreds to thousands of segments can be used to allow for an overall high mutation rate,
+corresponding perhaps to long stretches of DNA.&nbsp;&nbsp;&nbsp;</p>
+
+<p>There are two key considerations in selecting a genome size:&nbsp; simulation
+speed and population mutation rate.&nbsp; The larger the genome the slower the
+simulation.&nbsp; Also if the mutation rate is too high, for a given genome
+size, then all available sites become segregating and no more mutations can be
+added to the population, and the program halts.&nbsp;</p>
+
+<p>Recombination occurs within chromosomes according to the value of the
+recombination parameter.&nbsp; Chromosomes sort randomly into gametes, so there
+is, of course, high recombination between chromosomes.&nbsp;&nbsp;</p>
+
+<p>Usually there will be little need for more than 2 chromosomes in the genome,
+as this is sufficient to compare regions that are entirely unlinked.&nbsp;</p>
+
+<h3><a name="Making Measurements">Making Measurements</a></h3>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>The fitness and polymorphism patterns within the simulated
+population can be quite dynamic depending on the selection parameters and
+fitness scheme.&nbsp; In particular, population mean fitnesses may fluctuate
+fairly dramatically over time, particularly if recombination is low.&nbsp; In
+order to get an accurate assessment of the results for any particular parameter
+set, it may be necessary to run the population for a long period of time and to
+make many measurements.&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Most processes that go on within the simulation will
+have the population size (G - the number of gametes) as the key rate parameter.&nbsp; In larger populations
+things happen more slowly (i.e. it takes more generations for something to
+happen).&nbsp; Thus it is usually simplest to think of time in units of G
+generations, where G is the number of haploid genome copies in the
+population.&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>At the beginning of any simulation the population is not
+segregating any mutations, and it is expected to take about 2G generations on
+average for a neutral mutation to reach the highest frequencies.&nbsp; Thus the
+time until the first measurement can be taken from the population should
+generally not be less than 2G generations.&nbsp;&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>The same considerations lead to the point that the time
+between measurements should also be of the order of G generations, at least if
+it is desired that successive measurements not be strongly correlated with one
+another.&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3><a name="The Practicalities of Population Size">The Practicalities of
+Population Size</a></h3>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>G,&nbsp; the number of gametes in the population is an awkward parameter.&nbsp; Often we do not know effective population
+size values very well for natural populations, and so have little idea what
+values to use in simulations that are intended to approximate a natural situation.&nbsp;
+Another consideration is that we often expect the quantities that are to be
+measured in the simulation to&nbsp; vary in proportion to the population size,
+in which case it would be suitable to make the simulated population size as
+small as possible as size does not matter and the simulations will be fast if
+the size is small.&nbsp;&nbsp;&nbsp; However size often does matter,&nbsp;
+particularly with selection models in which the selection coefficients are near
+zero.&nbsp; In these cases it will often be necessary to consider a range of
+population sizes to see if the effect varies nonlinearly with G.&nbsp;&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Together these considerations often leave an investigator
+feeling as if they should consider all possible population sizes.&nbsp; This
+would be fine except that increasing population size increases the simulation
+time (i.e. makes it slower).&nbsp; An increase in G entails three types of speed reductions:</p>
+
+<ul>
+  <li>
+    <p class="MsoNormal">The program must handle more individuals each
+    generation</li>
+  <li>
+    <p class="MsoNormal">The program must be run for more generations because
+    things happen more slowly with larger populations.</li>
+  <li>
+    <p class="MsoNormal">Genomes must be larger, in order for the population to accommodate
+    the higher number of mutations that occur with larger population sizes.
+    Larger genomes slow the program.&nbsp;&nbsp;</li>
+</ul>
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><a name=FilesinthisPackage>Downloadable Files</a><span style='mso-fareast-font-family:
+"MS Mincho"'><span style="mso-spacerun: yes">              </span><a
+href="#Contents">Return to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>______________________</span></p>
+
+<p class=MsoNormal>The following files are available&nbsp;</p>
+
+<ul>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="fpg.exe">WIN32
+    (Windows)&nbsp; program</a></span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="fpg_win32.zip">WIN32
+    package (including documentation, sample data file,&nbsp; and WIN32 program)</a></span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="FPGppc.Hqx">PowerPC
+    (Mac)&nbsp; program</a></span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="FPG.sit">PowerPC
+    package (including documentation, sample data file, and PowerPC program)</a></span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="FPG.sit">Source
+    code&nbsp;</a></span></li>
+</ul>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span></span><a name=RunningtheProgram>Running the
+Program</a><span style='mso-bookmark:RunningtheProgram'></span><span
+style='mso-fareast-font-family:"MS Mincho"'><span style="mso-spacerun:
+yes">              </span><a href="#Contents">Return to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>The
+program file should reside either in the same folder as the data file or in
+a folder automatically searched by the operating system.&nbsp;&nbsp; </span><span style="mso-fareast-font-family: MS Mincho">It
+will usually be the case that a user will require several runs of the program
+using several different parameter values.&nbsp; For this reason the program
+requires just two&nbsp; parameters.</span></p>
+
+<ul>
+  <li>
+    <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">-D
+    Input file name<span style="mso-spacerun: yes">&nbsp;&nbsp; </span>e.g.<span style="mso-spacerun: yes">&nbsp;
+    </span>-Dmydata<o:p>
+    </o:p>
+    </span></li>
+  <li>
+    <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">-R<span style="mso-spacerun: yes">&nbsp;
+    </span>Output file name<span style="mso-spacerun:
+yes">&nbsp;&nbsp; </span>e.g. -RMyresults</span></li>
+</ul>
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style="mso-fareast-font-family: MS Mincho">For example,
+to run the program type:</span></p>
+
+<p class=MsoNormal><span style="mso-fareast-font-family: MS Mincho">fpg&nbsp;&nbsp;
+-Dmydata -Rmyresults</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Alternatively, just enter the program name, and it will ask
+for the file names.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>On a PowerPC, clicking on the program icon opens a small
+window in which command line parameters can be entered<span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">.&nbsp;
+The user can also just hit return at this point and the program will request
+runtime parameters.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style="mso-fareast-font-family: MS Mincho">During the
+run the program will output a line of text to the screen.&nbsp; For a population
+with G genome copies, this text will be written every G generations.&nbsp; It
+contains the data set number, the generation number, the population mean fitness
+and the amount of room left for mutations.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style="mso-fareast-font-family: MS Mincho">The program
+generates a file with an extension of '.fpg'&nbsp; (e.g. in this example the
+file would be myresults.fpg).</span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style="mso-fareast-font-family: MS Mincho">The input
+file is essentially a batch file, with multiple lines, each corresponding to a
+command to the program. Each line of the input file will run a simulation under
+a set of parameters.&nbsp;&nbsp;</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h4><a name="Key Parameters">Key Parameters</a></h4>
+
+<p class=MsoNormal><span style="mso-fareast-font-family: MS Mincho">There are
+three key parameters that play a large role in whether or not a simulation is
+workable.&nbsp;&nbsp;</span></p>
+
+<ul>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"> First is the size of the population, (see <a href="#The Practicalities of Population Size">The
+Practicalities of Population Size</a>).&nbsp;</span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"> Second is the genome size (the number of
+chromosome segments * the number of chromosomes).&nbsp; The genome size must be
+larger than the total number of mutations that will be segregating at any point
+in time.&nbsp;Unfortunately, this number is difficult to know under models with
+selection.&nbsp; The program will check initially to see if there is not
+sufficient room given the neutral mutation rate, and will halt the simulation if
+that is the case.&nbsp; Note that this check may be misleading as many selection
+models reduce the need for space for neutral mutations.&nbsp; The program also
+reports when there is insufficient room.&nbsp; If this occurs multiple times,
+the simulation is halted.&nbsp;</span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">The
+    third key parameter is mutation rate (particularly for neutral or nearly neutral
+    mutations).&nbsp; The mutation rates for neutral mutations, and those that
+    are nearly neutral must not be so high that all available mutation sites are
+    segregating in the population.&nbsp;&nbsp;</span></li>
+</ul>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style="mso-fareast-font-family: MS Mincho">The
+downloadabe version of the program calls for 5 or 6 Megabytes of memory while it is running.&nbsp;
+This memory model can accommodate a population of&nbsp; haploid size 1000, each
+with a genome length of 1000 segments.&nbsp; Larger or smaller memory models can
+be run, but require that parameters in the source code be changed, and the
+program recompiled.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h4><span style="mso-fareast-font-family: MS Mincho"><a name="Runtime parameters">Runtime parameters</a></span></h4>
+
+<p>Each line of the input file consists of a string of runtime parameters, most of
+which are required. The input file can have as many lines as desired. All
+results are saved to the output file, the name of which was given when the
+program was started.&nbsp; After the run for one parameter set is complete, the
+output file is saved, so that a cancellation of the program will not destroy
+results from completed simulations.</p>
+
+<p>The parameter flags, and their meanings, are as follows&nbsp; (upper or lower
+case letters may be used):</p>
+
+<ul>
+  <li>-G&nbsp;&nbsp;&nbsp; G,   the # of gametes or genome copies in the population.
+    This should not be less than 20. The maximum is limited by computer memory,
+    time, and the MAXGAMSIZE definition in the fpg.c source file.&nbsp;&nbsp;
+    e.g. -G100</li>
+  <li>-O&nbsp; The types of polymorphisms to include in the analysis. '-M' is
+    followed by one or more letters to indicate which types of polymorphism to
+    run analyses for.&nbsp; Multiple letters may be included.&nbsp; Note that by
+    default, the program lumps all polymorphisms. &nbsp; To see results for each
+    type of polymorphism, as well as all lumped together, use '-MPHN':
+    <ul>
+      <li>'P'&nbsp;&nbsp;&nbsp; Positive (beneficial) mutations</li>
+      <li>'H'&nbsp;&nbsp;&nbsp; Harmful mutations</li>
+      <li>'N'&nbsp;&nbsp;&nbsp; Neutral polymorphisms</li>
+    </ul>
+  </li>
+  <li>-C&nbsp;&nbsp; The # of segments per chromosome, each of length 32.&nbsp;
+    This parameter, as well as the number of chromosomes, must be chosen so that
+    there is sufficient room given the mutation rates to hold segregating
+    mutations.</li>
+  <li>-X&nbsp;&nbsp; The # of chromosomes per haploid genome.&nbsp; In general
+    there will not be a need to have more than 2 chromosomes.</li>
+  <li>-V&nbsp;&nbsp; The population selected mutation rate (if v is the mutation
+    rate per gamete then this equals G*v)</li>
+  <li>-S&nbsp;&nbsp;&nbsp; The population selection coefficient (if s is the
+    selection coefficient per individual, then this equals Gs) e.g. -S1</li>
+  <li>-F&nbsp;&nbsp;&nbsp; The proportion of selected mutations that are
+    deleterious (between 0 and 1, inclusive). The remainder are beneficial.</li>
+  <li>-H&nbsp;&nbsp;&nbsp; Dominance (between 0 and 1 inclusive). A value of 0.5
+    corresponds to&nbsp; incomplete dominance.&nbsp;</li>
+  <li>-Y&nbsp;&nbsp;&nbsp; The epistasis coefficient. Values between 0 and 1 are
+    for negative epistasis. Values greater than 1 are positive&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    (synergistic) epistasis. If the fitness model is not epistatic, this
+    quantity is ignored.&nbsp;</li>
+  <li>-W&nbsp; Fitness Model. A- additive, M- multiplicative, E-
+    epistatic.&nbsp;&nbsp; e.g. -WE&nbsp; The default is M- multiplicative.</li>
+  <li>-U&nbsp;&nbsp; The population neutral mutation rate. If u is the neutral
+    mutation rate per gamete then this equals G*u.&nbsp;</li>
+  <li>-R&nbsp;&nbsp; The population recombination rate per chromosome.&nbsp;
+    e.g. if r is the rate per chromosome then this equals G*r.</li>
+  <li>-K&nbsp; The number of subpopulations.&nbsp; Each subpopulation has size G
+    / # populations. If this is an odd number, then G is bumped up to make it
+    even so that some gametes are not left unpaired.</li>
+  <li>-M&nbsp; The migration rate per subpopulation. This is the average number
+    of genome copies that are copied from each subpopulation each generation to
+    settle randomly in other subpopulations.&nbsp;</li>
+  <li>-N&nbsp;&nbsp; The # of measurements to take.</li>
+  <li>-I&nbsp;&nbsp;&nbsp; The length of the startup period before measurements,
+    in units of G generations - default = 4.0 This is called the Burn-In time.</li>
+  <li>-J&nbsp;&nbsp;&nbsp; The length of the time between measurements, in units
+    of G generations - default = 1.0</li>
+  <li>-T&nbsp;&nbsp; Print out a pseudo-DNA-sequence data set, in SITES format,
+    for each set of parameters.</li>
+  <li>-Q&nbsp; Causes fitness measurements to include all those mutations that fixed.
+    These absolute measures can get very extreme. If they do become extreme,
+    then this flag is reset and fixed mutations are ignored therafter for the
+    purpose of fitness measurement. The default state is to ignore fixed
+    mutations when assessing fitness. . \n");</li>
+  <li>-L&nbsp;&nbsp; Invokes Linkage disequilibrium analysis along and between
+    chromosomes. '-L' is followed by a series of&nbsp; letters to indicate which
+    measures of linkage disequilibrium to use. Types of Linkage disequilibrium
+    measures and corresponding letter (at least one must be selected to invoke
+    the LD analysis):
+    <ul>
+      <li>
+        <p class="MsoNormal" style="text-indent:0cm">'R'<span style="mso-spacerun: yes">&nbsp;
+        invokes</span> the correlation coefficient</li>
+      <li>
+        <p class="MsoNormal" style="text-indent:0cm">'S' in<span style="mso-spacerun: yes">vokes</span>
+        r^2, the square of the correlation coefficient</li>
+      <li>
+        <p class="MsoNormal">'D'<span style="mso-spacerun: yes"> invokes the
+        basic gametic disequilibrium measure D</span></li>
+      <li>
+        <p class="MsoNormal" style="text-indent:0cm">'P'<span style="mso-spacerun: yes">
+        invokes D' (D prime)&nbsp; which is equal to D/ Dmax, where Dmax is the
+        maximum possible value of D given the observed allele frequencies.</span></li>
+      <li>
+        <p class="MsoNormal" style="text-indent:0cm">'B'<span style="mso-spacerun: yes">&nbsp;
+        </span>invokes the absolute value of D, |D|</li>
+    </ul>
+  </li>
+  <li>-B&nbsp;&nbsp; The length of chromosome in base pairs.&nbsp; Not a
+    simulation parameter but useful for some calculations when one wishes to
+    model a real world situation.</li>
+  <li>-A&nbsp;&nbsp; A random number generator seed for use if repeated
+    identical runs are desired. optional</li>
+</ul>
+
+<h4><a name="Cautions">Cautions</a></h4>
+
+<p>FPG has a large number of parameters and options.&nbsp; Thus even for a very
+simple question, such has how much variation is present in the absence of
+natural selection, recombination and migration, there are still&nbsp; many
+decisions to be made.&nbsp;&nbsp; It is quite easy to input a set of parameters
+that are not workable for one reason or another or that generate an output that
+you cannot make much sense of.&nbsp; In order for results to be informative, it
+is usually best&nbsp; to: (1) begin with a simple model; (2) familiarize
+yourself with the results; and (3) build up from there.&nbsp; For example here
+is&nbsp; a good starting point :</p>
+
+<p>-g100 -c1 -x2  -u2  -v0  -r0 -s0 -n100 -i4 -j1 -oN -k1&nbsp;<br>
+</p>
+
+<p>This runs with&nbsp; a small genome (e.g. 2 chromosomes, each of 1 segments,
+-x2 -c1),&nbsp; low mutation rates (-u2 -v0), no selection (-s0), no
+recombination (-r0), small to moderate population size (e.g. -g100), and makes
+enough measurements (-n100) so that the results should not be subject to too
+much variance.</p>
+
+<p>The population model implemented in FPG&nbsp; is somewhat arbitrary in a
+number of ways.&nbsp; In particular, there are a number of other reasonable ways
+to invoke selection and migration, in particular.&nbsp; One basic constraint of
+having populations with 100's to 1000's of genomes is that many classic
+population genetic results that hold best when populations are very large do not
+hold so well when populations are small.&nbsp; This makes it hard to check for
+bugs in the code.</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><a name=Output>Output</a><span style='mso-bookmark:
+Output'></span><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><a href="#Contents">Return
+to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><o:p></o:p>All
+of the results are placed into a single text file, which can be quite large
+depending on the analyses invoked and the number of line sin the input file.&nbsp;</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style="mso-fareast-font-family: MS Mincho">At the top
+of the output file is basic information regarding file names, and parameter
+definitions.&nbsp; Thereafter the results for each parameter set are presented
+in order.</span></p>
+
+<ul>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">First
+    is printed the parameter string.</span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">A
+    table listing the mean population fitness values recorded at intervals
+    during the simulation.</span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">A
+    comment on the type of fitness model.</span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">A
+    comment on the generation number at which measurements began.</span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">A
+    listing of runtime parameter values</span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">A
+    listing of some basic measurements regarding the amount of available memory
+    used by mutations during the simulation.</span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">A
+    listing of the total numbers of mutations entered, lost, fixed, and finally
+    polymorphic. Also shown is the fixation rate for each class of mutation
+    since the time that measurements began. Note that the fixation rate for
+    neutral mutations should be close to the population neutral mutation rate as
+    given with the '-U' term..</span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">A
+    table of mean heterozygosities, Watterson's estimate of the population
+    mutation rate (Watterson, 1975),and Tajima's D (Tajima, 1989) for a sample,
+    all&nbsp; for each class of polymorphism,&nbsp;</span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">If
+    there are multiple populations and migration, then a series of tables are
+    generated:</span>
+    <ul>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">The
+        mean, among measurements, of the variance in fitness among populations.</span></li>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">The
+        mean variance in heterozygosity of different polymorphism classes among
+        populations.</span></li>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">The
+        average number of shared polymorphisms, exclusive polymorphisms, and
+        fixed differences between pairs of populations.</span></li>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">Mean
+        heterozygosities within and between populations,&nbsp; mean Fst
+        estimates and mean Nm estimates, according to Hudson, Slatkin and
+        Maddison (1992). When the migration rate is on the order of&nbsp;
+        1,&nbsp; there is a general expectation that Nm should be close to the
+        migration rate between subpopulations.&nbsp;</span></li>
+    </ul>
+  </li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">Tables
+    (one for each class of polymorphism)&nbsp; of mean fitness and
+    heterozygosity values for different fitness classes.&nbsp;&nbsp; At each
+    measurement,&nbsp; all of the zygotes in the population are ranked by their
+    fitness and sorted into evenly sized bins.&nbsp; The number of bins is
+    determined by population size such that there are not less than 5 zygotes
+    per bin and not more than 50 bins. Mean values of individual bins are
+    determined from all of the measurements made over the course of the
+    simulation. The tables lists:</span>
+    <ul>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">The
+        average location in the fitness distribution</span></li>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">The
+        mean fitness within each bin&nbsp;</span></li>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">The
+        mean fitness within a bin as a percentage of the mean of the
+        population.&nbsp;</span></li>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">The
+        mean observed heterozygosity within each bin.&nbsp;</span></li>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">The
+        mean observed heterozygosity within each bin as a percentage of the
+        overall heterozygosity for the population.&nbsp;</span></li>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">The
+        mean value of Tajima's D for a sample from each bin for that
+        polymorphism class.</span></li>
+    </ul>
+  </li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">If
+    Linkage Disequilibrium Analyses were invoked then the following information
+    is provided for each type of polymorphism class and each&nbsp; LD measure:</span>
+    <ul>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">The
+        overall mean LD between all pairs of polymorphic sites in a sample for
+        that LD measure and polymorphism class.</span></li>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">The
+        mean LD between pairs of sites separated by particular distances along
+        the chromosome, and on different chromosomes. Distances are counted in
+        'regions'</span>.&nbsp; Each chromosome has 5 regions, and each region
+        corresponds to a given number of bits, determined by the number of
+        chromosome segments as <span style="mso-fareast-font-family: MS Mincho">defined
+        by the '-C' parameter.&nbsp;&nbsp;</span></li>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">A
+        table listing the different fitness classes,&nbsp; and the value of LD over different
+        distances for that fitness class.</span></li>
+    </ul>
+  </li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">If the
+    '-T' option was invoked, a pseudo DNA sequence data set, suitable for
+    analysis by the SITES program is generated. This data set is drawn from the
+    population at the time of the last measurement that was made in the
+    simulation. If analyses were done for each of the polymorphism classes, then
+    the different types of polymorphisms (Beneficial, Harmful, and Neutral)
+    received different base values in the data set. The data set includes one
+    sequence drawn randomly from each fitness bin.&nbsp;&nbsp;</span></li>
+</ul>
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"><a name="&nbsp;Program Limitations"> Program
+Limitations&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><a href="#Contents">Return to
+Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal>The distributed version of the program is set to handle
+populations of up to G=1000&nbsp; (i.e. 1000 gametes, 500 zygotes) and total
+genome length of up to 1000 segments.&nbsp; Since each segment has a length of
+32 bits,&nbsp; this means that the population can hold up to 32000
+mutations.&nbsp; With these lengths,&nbsp; it is possible to simulate situations
+that model real world genome sizes.&nbsp; For example you can assume that each
+segment corresponds to 100 base pairs and model a genome of 3.2 Megabases.&nbsp;
+This is quite workable - so long as the&nbsp; mutation rate is appropriate such
+that the mutation rate you use does not overload the genome (see <a href="#Key Parameters">Key
+Parameters</a>).</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>For sample sizes of 100 and genome sizes of 10
+segments,&nbsp; the simulations are rapid, and it takes most computers only a
+few minutes to do 50G generations (i.e. 5000 generations).&nbsp;&nbsp;
+Increasing the population size has a drastic effect on speed (see <a href="#The Practicalities of Population Size">The
+Practicalities of Population Size</a>).</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>If a very large number of simulations are desired for a
+particular population size and genome size, then it may be possible to increase
+speed by recompiling the program with reset values of key constants in the
+source code.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"><a name="Literature Cited">Literature Cited</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><a href="#Contents">Return to
+Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Charlesworth, B., M. T. Morgan and D. Charlesworth, 1993 The
+effect of deleterious mutations on neutral molecular evolution. Genetics 134:
+1289-1303.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Hill, W. G., and A. Robertson, 1966 The effect of linkage on
+limits to artificial selection. Genet. Res. 8: 269-294.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Hudson, R. R., M. Slatkin and W. P. Maddison, 1992 Estimation
+of levels of gene flow from DNA sequence data. Genetics 132: 583-589.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Maynard Smith, J., and J. Haigh, 1974 The hitch-hiking effect
+of a favourable gene. Genet. Res. 23: 23-35.</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal>Tajima, F., 1989 Statistical method for testing the neutral
+mutation hypothesis by DNA polymorphism. Genetics 123: 585-595.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Watterson, G. A., 1975 On the number of segregating sites in
+genetical models without recombination. Theor. Pop. Biol. 7: 256-275.</p>
+
+<hr>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">This page
+was last changed <!--webbot bot="Timestamp" S-Type="EDITED" S-Format="%B %d, %Y" startspan
+-->February 04, 2004<!--webbot bot="Timestamp" endspan i-checksum="41404"
+-->
+</span></p>
+
+<!--msnavigation--></td></tr><!--msnavigation--></table></body>
+
+</html>

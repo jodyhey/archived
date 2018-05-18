@@ -1,0 +1,1330 @@
+<html 
+
+<head>
+
+<head>
+<title>**SITES** -- DNA POLYMORPHISM ANALYSIS PROGRAM -- </title>
+
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-alt:"\FF2D\FF33 \660E\671D";
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"MS Mincho";
+	mso-font-kerning:0pt;}
+h3
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:13.0pt;
+	font-family:Arial;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+p.SITESHTMLSECTION, li.SITESHTMLSECTION, div.SITESHTMLSECTION
+	{mso-style-name:"SITES HTML SECTION";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:13.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 65.95pt 72.0pt 65.95pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:211116254;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-648896318 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:321394806;
+	mso-list-type:hybrid;
+	mso-list-template-ids:823017362 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2
+	{mso-list-id:347996733;
+	mso-list-type:hybrid;
+	mso-list-template-ids:390243898 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l3
+	{mso-list-id:469052690;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1728278214 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:66.0pt;
+	mso-level-number-position:left;
+	margin-left:66.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l4
+	{mso-list-id:595602924;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-146105552 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:51.0pt;
+	mso-level-number-position:left;
+	margin-left:51.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l5
+	{mso-list-id:618684836;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-407597496 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l6
+	{mso-list-id:804352113;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-398953594 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l7
+	{mso-list-id:823350717;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-38734328 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l8
+	{mso-list-id:838884500;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1458300866 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l8:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l9
+	{mso-list-id:940264044;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1706231478 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l9:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:54.0pt;
+	mso-level-number-position:left;
+	margin-left:54.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l9:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:90.0pt;
+	mso-level-number-position:left;
+	margin-left:90.0pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l10
+	{mso-list-id:1128544563;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1279062436 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l10:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l10:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l10:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l11
+	{mso-list-id:1488663586;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1533157438 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l11:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l12
+	{mso-list-id:1667249413;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1547973984 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l12:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l12:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l13
+	{mso-list-id:1712421168;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-286643452 67698689 -1240693162 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l13:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l13:level2
+	{mso-level-start-at:2;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"MS Mincho";}
+@list l14
+	{mso-list-id:2050647515;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1893314154 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l14:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l15
+	{mso-list-id:2080323462;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1095705302 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l15:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l15:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<link rel="stylesheet" type="text/css" href="../../../heylab_1.css">
+<meta name="Microsoft Border" content="t, default">
+</head>
+
+<body lang=EN-US style='tab-interval:36.0pt'><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td bgcolor="#EAEAEA">
+<div style="width:1150; height:106; border-top-style:solid; border-top-color:#800000; border-bottom-style:solid; border-bottom-color:#800000">
+<font face="Times New Roman" size="5">&nbsp;&nbsp;&nbsp; Jody 
+Hey&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><i>&nbsp; </i>
+</b></font> <b>
+<font color="#800000" size="5" face="Times New Roman"><span style="font-style: italic">Evolutionary Genetics 
+Laboratory</span></font></b><p><font face="Times New Roman" size="5">
+<dfn style="font-style: normal">&nbsp;Professor&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp;&nbsp; 
+Department of Genetics&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp;&nbsp; Rutgers University </dfn></font></p>
+<p><span style="font-style: italic">
+<font face="Times New Roman" color="#800000">
+<a href="../../../index.html"><img src="../../../_derived/index.html_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Hey Lab" align="middle"></a> <a href="../../../JodyHeyResearchAreas.htm"><img src="../../../_derived/JodyHeyResearchAreas.htm_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Research" align="middle"></a> <a href="../../../JHPapers.htm"><img src="../../../_derived/JHPapers.htm_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Publications" align="middle"></a> <a href="../../../HeylabSoftware.htm"><img src="../../../_derived/HeylabSoftware.htm_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Software, Data" align="middle"></a> <a href="../../../HeylabPeople.htm"><img src="../../../_derived/HeylabPeople.htm_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Contacts, People" align="middle"></a></font></span></p>
+</div>
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><!--msnavigation--><td valign="top">
+
+<p><span style='mso-fareast-font-family:"MS Mincho"'>**HKA**
+-- A COMPUTER PROGRAM FOR TESTS OF NATURAL SELECTION -- <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;DOCUMENTATION</span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Jody Hey&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Department
+of Genetics<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Rutgers
+University<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Nelson
+Biological Labs<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>604
+Allison Rd.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Piscataway,
+NJ<span style="mso-spacerun: yes">  </span>08854-8082<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>732-445-5272<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>fax
+732-445-5870<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><a href="mailto:hey@biology.rutgers.edu">hey@biology.rutgers.edu</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><a href="../../../index.html">http://lifesci.rutgers.edu/~heylab</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span>* This computer program and documentation may
+be freely copied and used by anyone, provided no fee is charged for it.&nbsp;</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<h3><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span><a name=Contents>Contents<o:p></o:p></a></span></h3>
+
+<span style='mso-bookmark:Contents'></span>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________
+<![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ul>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a
+href="#Overview">Overview</a></span>
+    <ul>
+      <li>
+        <p class="MsoNormal"><a href="#ASSUMPTIONS OF THE HKA TEST">Assumptions
+        of the HKA test</a></li>
+      <li>
+        <p class="MsoNormal"><a href="#ADDITIONAL FEATURES OF THE HKA PROTOCOL">Additional
+        Features of the HKA Protocol</a></li>
+      <li>
+        <p class="MsoNormal"><a href="#BASIC FEATURES OF THE HKA PROGRAM">Basic
+        Features of the HKA program</a><span style='mso-fareast-font-family:"MS Mincho"'><o:p></o:p></span></li>
+    </ul>
+  </li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a
+href="#FilesinthisPackage">Downloadable Files</a><o:p></o:p></span></li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a
+href="#InputFileFormat">Input File Format</a><o:p></o:p></span></li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a
+href="#RunningtheProgram">Running the Program</a><o:p></o:p></span></li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a href="#Output">Output</a><o:p></o:p></span></li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a href="#ProgramLimitations">Program
+Limitations</a><o:p></o:p></span></li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a href="#LiteratureCited">Literature Cited</a><o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>______________________<o:p></o:p></span></p>
+
+<h3><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span><a name=Overview>Overview</a> <span
+style='mso-tab-count:1'>   </span><o:p></o:p></span></h3>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;</span></p>
+
+<p class=MsoNormal>HKA
+  is a computer program that carries out the widely used statistical test for
+  natural selection that was developed by Hudson, R. R., M. Kreitman and M.
+  Aguadé (1987 A test of neutral molecular evolution based on nucleotide data.
+  Genetics 116: 153-159).&nbsp;&nbsp; This program can handle very large numbers
+  of loci and sample sizes, and conducts tests via coalescent simulation as well
+  as by the conventional chi square approximation.&nbsp;&nbsp; The simulations
+  can also be used to conduct other tests of natural selection, including tests
+  of Tajima's D statistic (1989) and the D statistic of Fu and Li (1993).</p>
+
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">&nbsp;<o:p>
+</o:p>
+</span></p>
+<p class="MsoNormal"><span style="mso-fareast-font-family:&quot;MS Mincho&quot;">RATIONAL<o:p>
+</o:p>
+</span></p>
+<p class="MsoNormal"><span style="mso-fareast-font-family:&quot;MS Mincho&quot;">&nbsp;<o:p>
+</o:p>
+</span></p>
+<p class="MsoNormal"><span style="mso-fareast-font-family:&quot;MS Mincho&quot;">The
+HKA test is based on the most basic prediction of the neutral model of molecular
+evolution, thatDNA sequence polymorphism within a species, and DNA sequence
+divergence between species, will be proportional to the neutral mutation rate
+(Kimura, 1968, 1969).<span style="mso-spacerun: yes">&nbsp; </span>To this basic
+expectations we must add that polymorphism also depends on the effective
+population size and that divergence also depends on the time since speciation.<span style="mso-spacerun: yes">&nbsp;
+</span>When we consider data<span style="mso-spacerun: yes">&nbsp; </span>collected
+from two species, and from multiple loci,&nbsp; we expect that all of the loci
+within a species will share the same effective population size, and we expect
+that each locus, regardless of species, will have a characteristic neutral
+mutation rate (depending on its length and level of selective constraint). Thus
+we can consider data on polymorphism and divergence cast in form of a
+contingency table<span style="mso-spacerun: yes">&nbsp; </span>(Figure 1). We
+can also build a similar table of the expected values, each a function of the
+basic model parameters that are fit to the data. <span style="mso-spacerun: yes">&nbsp;</span>Those
+parameters are:<o:p>
+</o:p>
+</span></p>
+<p class="MsoNormal"><span style="mso-fareast-font-family:&quot;MS Mincho&quot;">T
+- the time since the species divergence<o:p>
+</o:p>
+</span></p>
+<p class="MsoNormal"><span style="mso-fareast-font-family:&quot;MS Mincho&quot;">f
+- the ratio of the the two species effective population sizes.<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">Theta_i
+= 4N1 u_i<span style="mso-spacerun: yes">&nbsp;&nbsp; </span>- the population
+mutation rate for locus i in species 1, where </span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">N1
+- the effective population size of species 1 <o:p>
+</o:p>
+</span>and <span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">u_i
+is the neutral mutation rate at locus i. <o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">There
+is one Theta parameter for every locus.<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">&nbsp;<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">&nbsp;<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">Despite
+the presence of observations and corresponding expectations in parallel tables,
+one&nbsp; cannot conduct a conventional contingency table test (e.g. a
+chi-square test). Such a test relies upon a sampling variance within each cell
+that is roughly multinomial. However, the sampling variances within the cells of
+an HKA table are those of the coalescent process.<span style="mso-spacerun: yes">&nbsp;
+</span>Fortunately these can be calculated (Watterson, 1975).<span style="mso-spacerun: yes">&nbsp;
+</span>Using these variances, Hudson et. al., (1987)&nbsp; developed a
+chi-square-like test statistic, that they called<span style="mso-spacerun: yes">&nbsp;&nbsp;
+</span>X^2.<span style="mso-spacerun: yes">&nbsp; </span>If divergence has been
+sufficiently long, and polymorphism levels are not very low, then<span style="mso-spacerun: yes">&nbsp;
+</span>X^2 should be approximately chi-square distributed with 2*K-2 degrees of
+freedom where K is the number of loci in the test. <o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">&nbsp;<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">Fig
+1. <o:p>
+</o:p>
+</span></p>
+<table border="1" height="124">
+  <tr>
+    <td height="19">
+      <p align="center"></td>
+    <td colspan="6" height="19">
+      <p align="center">Loci</td>
+  </tr>
+  <tr>
+    <td height="19">
+      <p align="center">Species&nbsp;</td>
+    <td height="19">
+      <p align="center">1</td>
+    <td height="19">
+      <p align="center">2</td>
+    <td height="19">
+      <p align="center">3</td>
+    <td height="19">
+      <p align="center">.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td height="19">
+      <p align="center">.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td height="19">
+      <p align="center">.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="18">
+      <p align="center">1</td>
+    <td height="18">
+      <p class="MsoPlainText" align="center"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: MS Mincho">Po</span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">lymorphism<o:p>
+      </o:p>
+      </span></p>
+      <p class="MsoPlainText" align="center"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">Species 1</span></p>
+      <p class="MsoPlainText" align="center"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">Locus 1</span></td>
+    <td height="18">
+      <p class="MsoPlainText" align="center"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: MS Mincho">Po</span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">lymorphism<o:p>
+      </o:p>
+      </span></p>
+      <p class="MsoPlainText" align="center"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">Species 1</span></p>
+      <p class="MsoPlainText" align="center"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">Locus 2</span></td>
+    <td height="18">
+      <p class="MsoPlainText" align="center"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: MS Mincho">Po</span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">lymorphism<o:p>
+      </o:p>
+      </span></p>
+      <p class="MsoPlainText" align="center"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">Species 1</span></p>
+      <p class="MsoPlainText" align="center"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">Locus 3</span></td>
+    <td height="18">
+      <p align="center">.</td>
+    <td height="18">
+      <p align="center">.</td>
+    <td height="18">
+      <p align="center">.</td>
+  </tr>
+  <tr>
+    <td height="19">
+      <p align="center">2</td>
+    <td height="19">
+      <p class="MsoPlainText" align="center"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: MS Mincho">Po</span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">lymorphism<o:p>
+      </o:p>
+      </span></p>
+      <p class="MsoPlainText" align="center"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">Species 2</span></p>
+      <p class="MsoPlainText" align="center"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">Locus 1</span></td>
+    <td height="19">
+      <p class="MsoPlainText" align="center"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: MS Mincho">Po</span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">lymorphism<o:p>
+      </o:p>
+      </span></p>
+      <p class="MsoPlainText" align="center"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">Species 2</span></p>
+      <p class="MsoPlainText" align="center"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">Locus 2</span></td>
+    <td height="19">
+      <p class="MsoPlainText" align="center"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: MS Mincho">Po</span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">lymorphism<o:p>
+      </o:p>
+      </span></p>
+      <p class="MsoPlainText" align="center"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">Species 2</span></p>
+      <p class="MsoPlainText" align="center"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">Locus 3</span></td>
+    <td height="19">
+      <p align="center">.</td>
+    <td height="19">
+      <p align="center">.</td>
+    <td height="19">
+      <p align="center">.</td>
+  </tr>
+  <tr>
+    <td height="19">
+      <p align="center">1 vs 2</td>
+    <td height="19">
+      <p class="MsoPlainText" align="center"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: MS Mincho">Divergence</span></p>
+      <p class="MsoPlainText" align="center"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">Locus 1</span></td>
+    <td height="19">
+      <p class="MsoPlainText" align="center"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: MS Mincho">Divergence</span></p>
+      <p class="MsoPlainText" align="center"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">Locus 2</span></td>
+    <td height="19">
+      <p class="MsoPlainText" align="center"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: MS Mincho">Divergence</span></p>
+      <p class="MsoPlainText" align="center"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+mso-fareast-font-family:&quot;MS Mincho&quot;">Locus 3</span></td>
+    <td height="19">
+      <p align="center">.</td>
+    <td height="19">
+      <p align="center">.</td>
+    <td height="19">
+      <p align="center">.</td>
+  </tr>
+</table>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">&nbsp;<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">&nbsp;</span></p>
+<h3><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: MS Mincho"><a name="ASSUMPTIONS OF THE HKA TEST">ASSUMPTIONS
+OF THE HKA TEST</a></span></h3>
+<ul>
+  <li>
+    <p class="MsoPlainText"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: MS Mincho">Constant
+    population sizes since the time of common ancestry of the two species.</span></li>
+  <li>
+    <p class="MsoPlainText"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: MS Mincho">The
+    size of the common ancestral species is either the average of that of the
+    two descendant species or (if only one species is represented by multiple
+    sequences) then the ancestor is assumed to be the same size as that
+    descendant species for which multiple sequences have been sampled.&nbsp;
+    This assumption is not critical if T is so large that there is little chance
+    that any of the variation within species dates from the time of common
+    ancestry.&nbsp;&nbsp;</span></li>
+  <li>
+    <p class="MsoPlainText"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: MS Mincho">No
+    recombination within loci. This is a conservative assumption, as the
+    presence of recombination will reduce the variance of the observations under
+    the model.&nbsp;</span></li>
+  <li>
+    <p class="MsoPlainText"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: MS Mincho">Free
+    recombination between loci. Again this is a conservative assumption.&nbsp;
+    If the loci are not evolving independently then they assumption of
+    stochastic variance among loci does not hold.&nbsp;</span></li>
+  <li>
+    <p class="MsoPlainText"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: MS Mincho">All
+    mutations are selectively neutral.&nbsp;</span></li>
+  <li>
+    <p class="MsoPlainText"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: MS Mincho">The
+    variance of departures of observations of polymorphisms and divergence, from
+    expectations under the model, follow normal distributions.&nbsp; This
+    assumption is required if the X^2 test statistic is to be well approximated
+    by a chi square distribution.&nbsp; The assumption will hold approximately
+    if Theta, T and sample sizes are large. The program conducts a test by
+    simulation, and compares the observed distribution of the X^2 statistic with
+    the simulated distribution.&nbsp; Thus failure of the assumption of
+    normality of deviations will not lead to biased estimates of the
+    distribution of the test statistic. However failure of the assumption of
+    normality can be expected to reduce the power of the test.&nbsp;</span></li>
+</ul>
+<p class="MsoPlainText">&nbsp;</p>
+<h3><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;"><a name="ADDITIONAL FEATURES OF THE HKA PROTOCOL">ADDITIONAL
+FEATURES OF THE HKA PROTOCOL</a></span></h3>
+<p class="MsoPlainText">&nbsp;</p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">The
+basic HKA protocol has several attributes<span style="mso-spacerun: yes">&nbsp; </span>that
+permit a variety of applications in addition to an overall test of departure
+from the neutral model.<span style="mso-spacerun: yes">&nbsp; </span><o:p>
+</o:p>
+</span></p>
+<ul>
+  <li>
+    <p class="MsoPlainText"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: MS Mincho">C</span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">alculation
+    of<span style="mso-spacerun: yes">&nbsp; </span>X^2<span style="mso-spacerun: yes">&nbsp;test
+    statistic </span>requires calculation, for each cell of the matrix,
+    of departure between observation and expectation under the model. When just 2 loci are examined, these cells are
+    highly non-independent and so these individual departure statistics are not
+    very informative.<span style="mso-spacerun: yes">&nbsp; </span>But when many
+    loci are included in the test, there arises scope for inferring which loci,
+    and in what ways, the departure from neutrality occurs.<span style="mso-spacerun: yes">&nbsp;&nbsp;
+    </span><o:p>
+    </o:p>
+    </span></li>
+  <li>
+    <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">The
+    HKA procedure generates estimates for each of several basic neutral model
+    parameters that are necessary for calculating the expected values for the
+    data set.<span style="mso-spacerun:
+yes">&nbsp;&nbsp; </span>Furthermore,<span style="mso-spacerun: yes">&nbsp; </span>since
+    these parameters are estimated jointly from as many loci as are included in
+    the test,<span style="mso-spacerun: yes">&nbsp; </span>they can be expected
+    to have lower variance than comparable estimates that are based on
+    individual loci.<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>These
+    parameter estimates can then also be used for other purposes.<span style="mso-spacerun: yes">&nbsp;&nbsp;</span></span></li>
+  <li>
+    <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">The
+    parameter estimates can be used to conduction simulations in which the null
+    model assumptions of the test are taken to be correct.<span style="mso-spacerun: yes">&nbsp;
+    </span>These are coalescent simulations,<span style="mso-spacerun: yes">&nbsp;
+    </span>and it is a straightforward matter to have them follow the null model
+    HKA assumptions exactly (Hudson, 1990).<span style="mso-spacerun: yes">&nbsp;
+    </span><o:p>
+    </o:p>
+    </span></li>
+  <li>
+    <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">Because
+    the model underlying the HKA test is readily simulated, it is not difficult
+    to generate new data sets from the same parameters as fit the actual data,
+    in order to determine the actual distribution of X^2 under the model.<span style="mso-spacerun: yes">&nbsp;&nbsp;
+    </span>In other words, if conditions are such that the X^2<span style="mso-spacerun: yes">&nbsp;
+    </span>may not follow a chi-square distribution, then there is no need to
+    assume that it does.<span style="mso-spacerun: yes">&nbsp; </span>One can
+    simply conduct the simulations and use the simulated distribution of X^2<span style="mso-spacerun: yes">&nbsp;
+    </span>for test purposes.<span style="mso-spacerun: yes">&nbsp; </span><o:p>
+    </o:p>
+    </span></li>
+  <li>
+    <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">The
+    simulated data sets,&nbsp; that are based on parameters estimated from the
+    actual data,&nbsp; can also be used to examine other features of the data.<span style="mso-spacerun: yes">&nbsp;&nbsp;
+    For example, the computer program will conduct tests of Tajima's and Fu and
+    Li's D statistics (Tajima, 1989; Fu and Li, 1993).&nbsp;&nbsp; These tests
+    begin with a calculation of the difference between two distinct estimates
+    (i.e. using different estimators) of the parameter Theta, and proceed to
+    consider whether the observed value is greater than expected by
+    chance.&nbsp; One difficulty with the methods is that the test statistics
+    are a bit sensitive to the true value of Theta, which is generally not known
+    (Hudson, 1993).&nbsp; The HKA protocol generates estimates of Theta, and
+    does so using considerably more information (and more assumptions) than any
+    of the conventional estimators used by the D statistics.&nbsp;&nbsp;</span></span></li>
+</ul>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">&nbsp;<o:p>
+</o:p>
+</span></p>
+<h3><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;"><a name="BASIC FEATURES OF THE HKA PROGRAM">BASIC
+FEATURES OF THE HKA PROGRAM</a><o:p>
+</o:p>
+</span></h3>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">&nbsp;<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">The
+program can handle a very large number of<span style="mso-spacerun: yes">&nbsp; </span>loci
+(default compilation is for up to 20), with sample sizes per species per locus up to
+350 (192 on the PowerPC).</span></p>
+<p class="MsoPlainText">&nbsp;</p>
+<p class="MsoPlainText"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: MS Mincho">The
+sample size for the second species can be 1 sequence, as in the original
+implementation of the test (Hudson et al., 1987)</span></p>
+<p class="MsoPlainText">&nbsp;</p>
+<p class="MsoPlainText"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: MS Mincho">The
+program will conduct rapid coalescent simulations using parameters estimated
+from the data.&nbsp;</span></p>
+<p class="MsoPlainText">&nbsp;</p>
+<p class="MsoPlainText"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: MS Mincho">The
+program will conduct a variety of tests based on Tajima's D statistic (Tajima,
+1989) and Fu and Li's D statistic (Fu and Li, 1993)</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;"><o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">&nbsp;<o:p>
+</o:p>
+</span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><a name=FilesinthisPackage>Downloadable Files</a><span style='mso-fareast-font-family:
+"MS Mincho"'><span style="mso-spacerun: yes">              </span><a
+href="#Contents">Return to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;</span></p>
+
+<ul>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="hka.exe">WIN32
+    (Windows)&nbsp; program</a></span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="HKA_win32.zip">WIN32
+    package (including documentation, sample data file,&nbsp; and WIN32 program)</a></span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="HKAppc.Hqx">PowerPC
+    (Mac)&nbsp; program</a></span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="HKA.sit">PowerPC
+    package (including documentation, sample data file, and PowerPC program)</a></span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho"><a href="HKA_source.zip">Source
+    code&nbsp;</a></span></li>
+</ul>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span></span><a name=InputFileFormat>Input File
+Format</a><span style='mso-bookmark:InputFileFormat'></span><span
+style='mso-fareast-font-family:"MS Mincho"'><span style="mso-spacerun:
+yes">                </span><a href="#Contents">Return to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">Input
+Data File Format:<o:p>
+</o:p>
+</span></p>
+<ul>
+  <li>
+    <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">Line
+    1<span style="mso-spacerun: yes">&nbsp; </span>- a line of text.&nbsp; If
+    desired, up to 10 extra lines of commentary can be added following line 1.
+    Each additional line of commentary must have a '#' at the very beginning of
+    the line. All comment lines will be reproduced in the output file.<o:p>
+    </o:p>
+    </span></li>
+  <li>
+    <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">line
+    2 - the number of loci = numloci<o:p>
+    </o:p>
+    </span></li>
+  <li>
+    <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">line
+    3 - the names of the two species, species 1 and species 2<o:p>
+    </o:p>
+    </span></li>
+  <li>
+    <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">the
+    next numloci lines each have the following items<o:p>
+    </o:p>
+    </span>
+    <ul>
+      <li>
+        <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;"><span style="mso-spacerun: yes">&nbsp;</span>locus
+        identifier<o:p>
+        </o:p>
+        </span></li>
+      <li>
+        <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;"><span style="mso-spacerun: yes">&nbsp;</span>inheritance
+        scalar (1.0 for autosomal 0.75 for X linked 0.25 for extrachromosomal or
+        Y)<o:p>
+        </o:p>
+        </span></li>
+      <li>
+        <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;"><span style="mso-spacerun: yes">&nbsp;</span>mean
+        sequence length for species 1 <o:p>
+        </o:p>
+        </span></li>
+      <li>
+        <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;"><span style="mso-spacerun: yes">&nbsp;</span>mean
+        sequence length species 2 <o:p>
+        </o:p>
+        </span></li>
+      <li>
+        <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;"><span style="mso-spacerun: yes">&nbsp;</span>mean
+        sequence length in comparisons between species <o:p>
+        </o:p>
+        </span></li>
+      <li>
+        <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;"><span style="mso-spacerun: yes">&nbsp;</span>#
+        of sequences for species 1 <o:p>
+        </o:p>
+        </span></li>
+      <li>
+        <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;"><span style="mso-spacerun: yes">&nbsp;</span>#
+        of sequences for species 2 <o:p>
+        </o:p>
+        </span></li>
+      <li>
+        <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;"><span style="mso-spacerun: yes">&nbsp;</span>#
+        of polymorphic sites species1 <o:p>
+        </o:p>
+        </span></li>
+      <li>
+        <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;"><span style="mso-spacerun: yes">&nbsp;</span>#
+        of polymorphic sites species2 <o:p>
+        </o:p>
+        </span></li>
+      <li>
+        <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;"><span style="mso-spacerun: yes">&nbsp;</span>mean
+        pairwise divergence between species<o:p>
+        </o:p>
+        </span></li>
+      <li>
+        <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;"><span style="mso-spacerun: yes">&nbsp;</span>Tajima
+        D<span style="mso-spacerun: yes">&nbsp; </span>for species 1&nbsp;
+        (Tajima, 1989)<o:p>
+        </o:p>
+        </span></li>
+      <li>
+        <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;"><span style="mso-spacerun: yes">&nbsp;</span>Tajima
+        D<span style="mso-spacerun: yes">&nbsp; </span>for species 2&nbsp;
+        (Tajima, 1989)<o:p>
+        </o:p>
+        </span></li>
+      <li>
+        <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;"><span style="mso-spacerun: yes">&nbsp;</span>Fu
+        &amp; Li D (rooted) for species 1&nbsp; (Fu and Li, 1993)<o:p>
+        </o:p>
+        </span></li>
+      <li>
+        <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;"><span style="mso-spacerun: yes">&nbsp;</span>Fu
+        &amp; Li D (rooted) for species 2 (Fu and Li, 1993)<o:p>
+        </o:p>
+        </span></li>
+    </ul>
+  </li>
+</ul>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">&nbsp;<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">Thus
+the basic format is of a table.<span style="mso-spacerun: yes">&nbsp; </span>With
+K loci the table would have K rows. Each row begins with a locus name and is
+followed by 13 numbers. <o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText">&nbsp;</p>
+<p class="MsoPlainText"><span style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: MS Mincho">If
+one species has only a single sequence at one, at one or any of the loci,&nbsp;
+then that data set should be reduced to just one sequence for all of the loci
+for that species.&nbsp; In addition the species represented by just a single
+sequence for each locus should be species 2.</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">&nbsp;<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">Inclusion
+of Tajima's and Fu&amp;Li's statistics is optional and they need not be
+included. However if they are the program will test their significance.<span style="mso-spacerun: yes">&nbsp;
+</span>It will also conduct tests of the overall mean among these statistics and
+of their variances among the loci.<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">&nbsp;<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">If
+tests of D statistics are desired, but the values for some loci are not known or
+are not calculable, then the corresponding value in the input table should be
+set to -10 or less.<span style="mso-spacerun: yes">&nbsp; </span><o:p>
+</o:p>
+</span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span></span><a name=RunningtheProgram>Running the
+Program</a><span style='mso-bookmark:RunningtheProgram'></span><span
+style='mso-fareast-font-family:"MS Mincho"'><span style="mso-spacerun:
+yes">              </span><a href="#Contents">Return to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>The
+program file should reside either in the same folder as the data file or in
+a folder automatically searched by the operating system.&nbsp; The program
+can be run using command line parameters, or by simply typing the name of the
+program ('hka').&nbsp;</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">Command
+line parameters:<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">&nbsp;<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">-D
+(or -I)<span style="mso-spacerun: yes">&nbsp; </span>Input file name<span style="mso-spacerun: yes">&nbsp;&nbsp;
+</span>e.g.<span style="mso-spacerun: yes">&nbsp; </span>-Dmydata<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">-R<span style="mso-spacerun: yes">&nbsp;
+</span>Output file name<span style="mso-spacerun:
+yes">&nbsp;&nbsp; </span>e.g. -RMyresults<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">-S<span style="mso-spacerun: yes">&nbsp;&nbsp;
+</span>Number of simulations<span style="mso-spacerun: yes">&nbsp; </span>e.g.
+-S1000&nbsp; (the maximum is 10000)<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">-T<span style="mso-spacerun: yes">&nbsp;&nbsp;
+</span>Do tests of Tajima's D statistic<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">-F<span style="mso-spacerun: yes">&nbsp;&nbsp;
+</span>Do tests of Fu and Li's D statistic<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">-M<span style="mso-spacerun: yes">&nbsp;&nbsp;
+</span>comment line<span style="mso-spacerun:
+yes">&nbsp;&nbsp; </span>e.g. -Mtest_my_data<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">&nbsp;<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">To
+start the program with command line parameters:<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">For
+example, type:<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">hka
+-Dmydata -Rmyresults -S1000 -Mtest_my_data -T -F<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText">&nbsp;</p>
+
+<p class=MsoNormal><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">To
+start the program without&nbsp; command line parameters, simply enter 'hka'.&nbsp;
+The program then asks for all of the necessary information<o:p>
+</o:p>
+</span></p>
+
+<p class="MsoPlainText">&nbsp;</p>
+<p class="MsoPlainText">On a PowerPC, clicking on the program icon opens a small
+window in which command line parameters can be entered (e.g. <span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">-Dmydata
+-Rmyresults -S1000 -Mtest_my_data -T -F<o:p>
+</o:p>).&nbsp; The user can also just hit return at this point and the program
+will request runtime parameters.</span></p>
+<p class="MsoPlainText">&nbsp;</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><a name=Output>Output</a><span style='mso-bookmark:
+Output'></span><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                          </span><a href="#Contents">Return
+to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><o:p></o:p>The
+output is all included in the Output file, and includes the following:</span></p>
+
+<ul>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">Basic
+    information about input data, including comments from input file, and
+    numbers and sizes of loci.</span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">Tables
+    of Observed and Expected Values.&nbsp; There are two tables, one for
+    polymorphism within species and one for divergence between species.&nbsp;
+    These tables include the observations, as well as the expected values after
+    fitting the HKA model, the variance under the model, and the deviation for
+    each observation (i.e. (observed - expected)^2/variance) )/&nbsp;</span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">The
+    X^2 statistic (i.e. the sum of deviations) is compared to the chi square
+    distribution with appropriate number of degrees of freedom.&nbsp; For two
+    species and K loci there are 2*K-2&nbsp; degrees of freedom.&nbsp; When one
+    species is represented by just a single sequence at each locus, there are
+    L-1 degrees of freedom.&nbsp;&nbsp;</span></li>
+  <li>
+    <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">If
+    simulations were done:</span>
+    <ul>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">The
+        observed value of X^2&nbsp; is also placed within the simulated
+        distribution of X^2.</span></li>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">The
+        cumulative distribution of the X^2 statistic is given together with the
+        corresponding chi square distribution.&nbsp;</span></li>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">a
+        TEST OF MAXIMUM CELL VALUE is conducted (Wang and Hey, 1996). The result
+        is very simply the location of the largest observed deviation value in
+        the distribution of largest deviation values, regardless of species,
+        or&nbsp; locus and regardless of whether the observation corresponds to
+        polymorphism or divergence.&nbsp; If the distributions of all cells of
+        the data matrices are equally distributed, as would be the case under
+        the assumptions of the method, then the properties of this test could be
+        predicted.&nbsp; If that does not hold, then the test will be based
+        primarily on those portions of the simulated data sets that tend to have
+        positively skewed deviations from expectations.&nbsp;</span></li>
+      <li>
+        <p class="MsoNormal"><span style="mso-fareast-font-family: MS Mincho">ESTIMATED
+        PARAMETER VALUES AND SIMULATION STATISTICS.&nbsp; This is a table of
+        parameter estimates, and, if simulations are done, of 95% confidence
+        intervals and of simulation means.&nbsp;&nbsp; The simulation means
+        should be close to the parameter estimates.</span></li>
+      <li>
+        <p class="MsoNormal">TESTS OF MEANS AND VARIANCES OF TAJIMA D VALUES.&nbsp;
+        If the input data contained Tajima D values, then the mean values, among
+        loci,&nbsp; are compared with the distribution of simulated mean
+        values.&nbsp;</li>
+      <li>
+        <p class="MsoNormal">&nbsp;TESTS OF INDIVIDUAL TAJIMA D VALUES.&nbsp;
+        These are tests of observed values of Tajima's D for each locus against
+        the simulated distributions.&nbsp;</li>
+      <li>
+        <p class="MsoNormal">The same types of tests are done using Fu and Li's
+        D statistic.</li>
+    </ul>
+  </li>
+</ul>
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span></span><a name=ProgramLimitations>Program
+Limitations</a><span style='mso-bookmark:ProgramLimitations'></span><span
+style='mso-fareast-font-family:"MS Mincho"'><span style="mso-spacerun:
+yes">             </span><a href="#Contents">Return to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________
+<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal>The program can handle very large data sets.&nbsp; The
+distributed version will handle 20 loci and up to 350 individuals per species
+per locus.&nbsp; When sample sizes are modest it does simulations quickly.&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>The most glaring limitation is that the program does not
+incorporate recombination into the simulations.&nbsp;&nbsp; Recombination
+reduces the variance of polymorphism levels, and for some purposes it would be
+nice to include this.&nbsp;</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span><a name=LiteratureCited>Literature Cited</a><span
+style="mso-spacerun: yes">                </span><a href="#Contents">Return to
+Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">Fu,
+Y. X., and W. H. Li, 1993 Statistical tests of neutrality of mutations. Genetics
+133: 693-709.<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText">&nbsp;</p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">Hudson,
+R. R., 1990 Gene genealogies and the coalescent process, pp. 1-44 in Oxford
+Surveys in Evolutionary Biology, edited by D. </span></p>
+<p class="MsoPlainText">&nbsp;</p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">Futuyma
+and J. Antonovics. Oxford University Press, New York.<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText">&nbsp;</p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">Hudson,
+R. R., M. Kreitman and M. Aguadé, 1987 A test of neutral molecular evolution
+based on nucleotide data. Genetics 116: 153-159.<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText">&nbsp;</p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">Kimura,
+M., 1968 Evolutionary rate at the molecular level. Nature 217: 624-626.<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText">&nbsp;</p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">Kimura,
+M., 1969 The number of heterozygous nucleotide sites maintained in a finite
+population due to steady flux of mutations. Genetics 61: 893-903.<o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText">&nbsp;</p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">Tajima,
+F., 1989 Statistical method for testing the neutral mutation hypothesis by DNA
+polymorphism. Genetics 123: 585-595.</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;"><o:p>
+</o:p>
+</span></p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">Wang,
+R. L., and J. Hey, 1996 The speciation history of Drosophila pseudoobscura and
+close relatives: inferences from DNA sequence variation at the period locus.
+Genetics 144: 1113-26.</span></p>
+<p class="MsoPlainText">&nbsp;</p>
+<p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">Watterson,
+G. A., 1975 On the number of segregating sites in genetical models without
+recombination. Theor. Pop. Biol. 7: 256-275.<o:p>
+</o:p>
+</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class="MsoNormal">This page was last changed <!--webbot bot="Timestamp"
+S-Type="EDITED" S-Format="%B %d, %Y" startspan -->February 04, 2004<!--webbot bot="Timestamp" endspan i-checksum="41404" -->
+</p>
+
+<!--msnavigation--></td></tr><!--msnavigation--></table></body>
+
+</html>

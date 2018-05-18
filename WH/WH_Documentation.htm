@@ -1,0 +1,916 @@
+<html 
+
+<head>
+
+<head>
+<title>**SITES** -- DNA POLYMORPHISM ANALYSIS PROGRAM -- </title>
+
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-alt:"\FF2D\FF33 \660E\671D";
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"MS Mincho";
+	mso-font-kerning:0pt;}
+h3
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:13.0pt;
+	font-family:Arial;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+p.SITESHTMLSECTION, li.SITESHTMLSECTION, div.SITESHTMLSECTION
+	{mso-style-name:"SITES HTML SECTION";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:13.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 65.95pt 72.0pt 65.95pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:211116254;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-648896318 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:321394806;
+	mso-list-type:hybrid;
+	mso-list-template-ids:823017362 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2
+	{mso-list-id:347996733;
+	mso-list-type:hybrid;
+	mso-list-template-ids:390243898 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l3
+	{mso-list-id:469052690;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1728278214 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:66.0pt;
+	mso-level-number-position:left;
+	margin-left:66.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l4
+	{mso-list-id:595602924;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-146105552 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:51.0pt;
+	mso-level-number-position:left;
+	margin-left:51.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l5
+	{mso-list-id:618684836;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-407597496 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l6
+	{mso-list-id:804352113;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-398953594 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l7
+	{mso-list-id:823350717;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-38734328 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l8
+	{mso-list-id:838884500;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1458300866 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l8:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l9
+	{mso-list-id:940264044;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1706231478 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l9:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:54.0pt;
+	mso-level-number-position:left;
+	margin-left:54.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l9:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:90.0pt;
+	mso-level-number-position:left;
+	margin-left:90.0pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l10
+	{mso-list-id:1128544563;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1279062436 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l10:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l10:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l10:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l11
+	{mso-list-id:1488663586;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1533157438 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l11:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l12
+	{mso-list-id:1667249413;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1547973984 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l12:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l12:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l13
+	{mso-list-id:1712421168;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-286643452 67698689 -1240693162 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l13:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l13:level2
+	{mso-level-start-at:2;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"MS Mincho";}
+@list l14
+	{mso-list-id:2050647515;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1893314154 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l14:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l15
+	{mso-list-id:2080323462;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1095705302 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l15:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l15:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<link rel="stylesheet" type="text/css" href="../../../heylab_1.css">
+<meta name="Microsoft Border" content="t, default">
+</head>
+
+<body lang=EN-US style='tab-interval:36.0pt'><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td bgcolor="#EAEAEA">
+<div style="width:1150; height:106; border-top-style:solid; border-top-color:#800000; border-bottom-style:solid; border-bottom-color:#800000">
+<font face="Times New Roman" size="5">&nbsp;&nbsp;&nbsp; Jody 
+Hey&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><i>&nbsp; </i>
+</b></font> <b>
+<font color="#800000" size="5" face="Times New Roman"><span style="font-style: italic">Evolutionary Genetics 
+Laboratory</span></font></b><p><font face="Times New Roman" size="5">
+<dfn style="font-style: normal">&nbsp;Professor&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp;&nbsp; 
+Department of Genetics&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp;&nbsp; Rutgers University </dfn></font></p>
+<p><span style="font-style: italic">
+<font face="Times New Roman" color="#800000">
+<a href="../../../index.html"><img src="../../../_derived/index.html_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Hey Lab" align="middle"></a> <a href="../../../JodyHeyResearchAreas.htm"><img src="../../../_derived/JodyHeyResearchAreas.htm_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Research" align="middle"></a> <a href="../../../JHPapers.htm"><img src="../../../_derived/JHPapers.htm_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Publications" align="middle"></a> <a href="../../../HeylabSoftware.htm"><img src="../../../_derived/HeylabSoftware.htm_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Software, Data" align="middle"></a> <a href="../../../HeylabPeople.htm"><img src="../../../_derived/HeylabPeople.htm_cmp_sumipntg100_hbtn.gif" width="140" height="40" border="0" alt="Contacts, People" align="middle"></a></font></span></p>
+</div>
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><!--msnavigation--><td valign="top">
+
+<p class="MsoNormal" style="text-indent:0cm">**WH** -- A COMPUTER PROGRAM FOR
+ISOLATION MODEL FITTING--*</p>
+<p class="MsoNormal" style="text-indent:0cm">&nbsp;</p>
+<p class="MsoNormal" style="text-indent:0cm">&nbsp;<span style='mso-fareast-font-family:"MS Mincho"'>DOCUMENTATION<span
+style="mso-spacerun: yes">  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Jody Hey</p>
+
+<p class=MsoNormal>Department
+of Genetics</p>
+
+<p class=MsoNormal style="line-height: 100%">Rutgers
+University</p>
+
+<p class=MsoNormal style="line-height: 100%">Nelson
+Biological Labs<o:p></o:p></p>
+
+<p class=MsoNormal style="line-height: 100%">604
+Allison Rd.<o:p></o:p></p>
+
+<p class=MsoNormal style="line-height: 100%">Piscataway,
+NJ  08854-8082<o:p></o:p></p>
+
+<p class=MsoNormal style="line-height: 100%">732-445-5272<o:p></o:p></p>
+
+<p class=MsoNormal style="line-height: 100%">fax
+732-445-5870<o:p></o:p></p>
+
+<p class=MsoNormal style="line-height: 100%"><a href="mailto:hey@biology.rutgers.edu">hey@biology.rutgers.edu</a><o:p></o:p></p>
+
+<p class=MsoNormal style="line-height: 100%"><a href="../../../index.html">http://lifesci.rutgers.edu/~heylab</a></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>*Some key internal parts of this program derive from the
+first program for the method that was written by John Wakeley.&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>This computer program and documentation may be freely copied
+and used by anyone, provided no fee is charged for it.&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<h3><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span><a name=Contents>Contents<o:p></o:p></a></span></h3>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________
+<![if !supportEmptyParas]><![endif]><o:p></o:p></span></p>
+
+<ul>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a
+href="#Overview">Overview</a><o:p></o:p></span></li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a
+href="#FilesinthisPackage">Downloadable Files</a><o:p></o:p></span></li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a
+href="#InputFileFormat">Input File Format</a><o:p></o:p></span></li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a
+href="#RunningtheProgram">Running the Program</a><o:p></o:p></span></li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a href="#Output">Output</a><o:p></o:p></span></li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a href="#ProgramLimitations">Program
+Limitations</a><o:p></o:p></span></li>
+  <li>
+    <p class="MsoNormal"><span style='mso-fareast-font-family:"MS Mincho"'><a href="#LiteratureCited">Literature Cited</a><o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>______________________<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-indent:0cm">&nbsp;</p>
+<p class="MsoNormal" style="text-indent:0cm">&nbsp;<o:p>
+</o:p>
+</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>______________________<o:p></o:p></span></p>
+
+<h3><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span><a name=Overview>Overview</a> <span
+style='mso-tab-count:1'>   </span><o:p></o:p></span></h3>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-indent:0cm">&nbsp;</p>
+<p class="MsoNormal" style="text-indent:0cm">WH is a program that fits a simple
+speciation model, called the Isolation Model, to multilocus DNA sequence data
+sets.<span style="mso-spacerun: yes">&nbsp; </span><span style="mso-spacerun: yes">The
+isolation model assumes the following:</span></p>
+<ul>
+  <li>
+    <p class="MsoNormal" style="text-indent:0cm">Two species, or populations,
+    from which the data have been sampled, arose from a single ancestral
+    species, or population, some time, t generations, in the past.</li>
+  <li>
+    <p class="MsoNormal" style="text-indent:0cm">The common ancestral&nbsp;
+    species, or population was of constant effective size NA.</li>
+  <li>
+    <p class="MsoNormal" style="text-indent:0cm">The two descendant species
+    (populations) have contant effective sizes N1 and N2, respectively.&nbsp;</li>
+  <li>
+    <p class="MsoNormal" style="text-indent:0cm">Except for the moment of
+    population separation at time t, population sizes are constant.</li>
+  <li>
+    <p class="MsoNormal" style="text-indent:0cm">Since population separation,
+    there is zero gene flow between the species (populations).</li>
+  <li>
+    <p class="MsoNormal" style="text-indent:0cm">All mutations are
+    neutral.&nbsp;&nbsp;</li>
+</ul>
+<p class="MsoNormal" style="text-indent:0cm">&nbsp;</p>
+<p class="MsoNormal" style="text-indent:0cm">WH implements the methods described
+in</p>
+<p class="MsoNormal" style="text-indent:0cm">&nbsp;<o:p>
+</o:p>
+</p>
+<p class="MsoNormal" style="text-indent:0cm">Wakeley, J., and J. Hey, 1997<span style="mso-spacerun: yes">&nbsp;
+</span>Estimating ancestral population parameters. Genetics 145: 847-855.</p>
+<p class="MsoNormal" style="text-indent:0cm">&nbsp;</p>
+<p class="MsoNormal" style="text-indent:0cm">Wang, R. L., J. Wakeley and J. Hey,
+1997<span style="mso-spacerun: yes">&nbsp; </span>Gene flow and natural
+selection in the origin of Drosophila pseudoobscura and close relatives.
+Genetics 147: 1091-1106.</p>
+<p class="MsoNormal" style="text-indent:0cm">&nbsp;<o:p>
+</o:p>
+</p>
+<p class="MsoNormal" style="text-indent:0cm"><o:p>
+</o:p>
+</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><a name=FilesinthisPackage>Downloadable Files</a><span style='mso-fareast-font-family:
+"MS Mincho"'><span style="mso-spacerun: yes">              </span><a
+href="#Contents">Return to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>&nbsp;_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><span
+style="mso-spacerun: yes"> </span><a name=InputFileFormat>Input File
+Format</a><span
+style='mso-fareast-font-family:"MS Mincho"'><span style="mso-spacerun:
+yes">                </span><a href="#Contents">Return to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p><o:p></o:p></span></p>
+
+<ul>
+  <li><span style="mso-fareast-font-family:&quot;MS Mincho&quot;">Line
+    1. A line of text that generally provides a brief description of the data
+    set. If desired, up to 10 extra lines of commentary can be added following
+    line 1.<span style="mso-spacerun: yes">&nbsp; </span>Each additional line of
+    commentary must have a '#' at the very beginning of the line. All comment
+    lines will be reproduced in the output file.</span></li>
+  <li>Next Line – includes 1 required number
+    and optionally 2 additional values</li>
+  <li>
+    <p class="MsoNormal" style="margin-left:72.0pt;text-indent:-18.0pt;mso-list:l4 level2 lfo5;
+tab-stops:list 72.0pt;mso-layout-grid-align:auto;punctuation-wrap:hanging;
+text-autospace:ideograph-other">First Required Value - an integer corresponding
+    to the number of loci.</li>
+  <li>
+    <p class="MsoNormal" style="margin-left:72.0pt;text-indent:-18.0pt;mso-list:l4 level2 lfo5;
+tab-stops:list 72.0pt;mso-layout-grid-align:auto;punctuation-wrap:hanging;
+text-autospace:ideograph-other">First Optional<span style="mso-spacerun: yes">
+    Value&nbsp; </span>- The<span style="mso-spacerun: yes">&nbsp; </span>mutation
+    rate per year since divergence of the species, totaled across all of the
+    genes</li>
+  <li>
+    <p class="MsoNormal" style="margin-left:72.0pt;text-indent:-18.0pt;mso-list:l4 level2 lfo5;
+tab-stops:list 72.0pt;mso-layout-grid-align:auto;punctuation-wrap:hanging;
+text-autospace:ideograph-other">Second Optional<span style="mso-spacerun: yes">&nbsp;
+    </span>- The number of generations per year for the organisms in the species</li>
+  <li>
+    <p class="MsoNormal" style="margin-left:72.0pt;text-indent:-18.0pt;mso-list:l4 level2 lfo5;
+tab-stops:list 72.0pt;mso-layout-grid-align:auto;punctuation-wrap:hanging;
+text-autospace:ideograph-other"><span style="mso-fareast-font-family:
+&quot;MS Mincho&quot;">-<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </span></span>NOTE - the mutation rate per year<span style="mso-spacerun: yes">&nbsp;
+    </span>and the number of generations are not required for the primary
+    analysis. If you desire estimated parameter values in terms of actual
+    population sizes, and years,<span style="mso-spacerun: yes">&nbsp; </span>then
+    estimates of these values should be provided.</li>
+  <li>Next line has two species names for species
+    1 and species 2. Each name can be up to 10 characters in length.</li>
+  <li>There follows one line for each locus. Each
+    line has up to 17 items depending on the tests that are to be done.</li>
+</ul>
+<p class="MsoNormal" style="margin-left:72.0pt;text-indent:-18.0pt;mso-list:l4 level2 lfo5;
+tab-stops:list 72.0pt;mso-layout-grid-align:auto;punctuation-wrap:hanging;
+text-autospace:ideograph-other"><span style="mso-fareast-font-family:
+&quot;MS Mincho&quot;">-<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>If all that is to be done is a basic fitting of the isolation
+model, and if no tests are to be done, then each line is required to have 9
+items<span style="mso-spacerun: yes">&nbsp; </span>- see DATA LINES below.</p>
+<p class="MsoNormal" style="margin-left:72.0pt;text-indent:-18.0pt;mso-list:l4 level2 lfo5;
+tab-stops:list 72.0pt;mso-layout-grid-align:auto;punctuation-wrap:hanging;
+text-autospace:ideograph-other"><span style="mso-fareast-font-family:
+&quot;MS Mincho&quot;">-<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>If simulations and statistical tests are to be done, then each
+line also requires 2 additional items – the population recombination rate
+estimates for each species</p>
+<p class="MsoNormal" style="margin-left:72.0pt;text-indent:-18.0pt;mso-list:l4 level2 lfo5;
+tab-stops:list 72.0pt;mso-layout-grid-align:auto;punctuation-wrap:hanging;
+text-autospace:ideograph-other"><span style="mso-fareast-font-family:
+&quot;MS Mincho&quot;">-<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>If linkage disequilibrium tests<span style="mso-spacerun: yes">&nbsp;
+</span>are also to be done, then there will be an additional 6 items, for a
+total of 17.</p>
+<p class="MsoNormal" style="text-indent:0cm">&nbsp;<o:p>
+</o:p>
+</p>
+<p class="MsoNormal" style="text-indent:0cm">DATA LINES</p>
+<p class="MsoNormal" style="text-indent:0cm">FOR EACH LOCUS, ONE LINE PER LOCUS,
+IN ORDER:</p>
+<ul style="margin-top:0cm" type="disc">
+  <li>locus name<span style="mso-spacerun: yes">&nbsp; </span>(a
+    string of no more than 10 characters)</li>
+  <li>inheritance scalar (1.0 autosomal; 0.75 X –linked;
+    0.25 mitochondrial or Y-linked)</li>
+  <li>length<span style="mso-spacerun: yes">&nbsp; </span>in
+    base pairs</li>
+  <li># sequences for species 1</li>
+  <li># sequences for species 2<span style="mso-spacerun:
+     yes">&nbsp; </span>(total for both species per locus not over 32<span style="mso-spacerun: yes">&nbsp;
+    </span>(64 when compiled under Microsoft Visual C++)</li>
+  <li>Sx1<span style="mso-spacerun: yes">&nbsp; </span>-
+    polymorphisms exclusive to species 1</li>
+  <li>Sx2 - polymorphisms exclusive to species 2</li>
+  <li>Ss<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+    </span>- shared polymorphisms</li>
+  <li>Sf<span style="mso-spacerun: yes">&nbsp; </span>-
+    fixed differences</li>
+</ul>
+<p class="MsoNormal" style="text-indent:0cm">&nbsp;<o:p>
+</o:p>
+</p>
+<p class="MsoNormal" style="text-indent:0cm">If Simulations are to be done then
+then each line should also have:</p>
+<ul style="margin-top:0cm" type="disc">
+  <li>4Nc (population recombination rate) in species 1<span style="mso-spacerun: yes">&nbsp;
+    </span>(use ‘–1’ if not known)</li>
+  <li>4Nc (population recombination rate) in species 2
+    (use ‘–1’ if not known)</li>
+</ul>
+<p class="MsoNormal" style="text-indent:0cm">&nbsp;<o:p>
+</o:p>
+</p>
+<p class="MsoNormal" style="text-indent:0cm">If tests of Linkage disequilibrium
+are to be done then each line should also have:</p>
+<ul style="margin-top:0cm" type="disc">
+  <li>LD among ‘shared’ polymorphisms for species 1</li>
+  <li>LD among ‘shared’ polymorphisms for species 2</li>
+  <li>LD among ‘shared’ polymorphisms<span style="mso-spacerun: yes">&nbsp;
+    </span>minus LD among and non-shared polymorphisms for species 1.</li>
+  <li>LD among ‘shared’ polymorphisms<span style="mso-spacerun: yes">&nbsp;
+    </span>minus LD among non-shared polymorphisms for species 2.</li>
+  <li>LD among ‘shared’ polymorphisms<span style="mso-spacerun: yes">&nbsp;
+    </span>minus LD between ‘shared’ and non-shared polymorphisms for
+    species 1.</li>
+  <li>LD among ‘shared’ polymorphisms<span style="mso-spacerun: yes">&nbsp;
+    </span>minus LD between ‘shared’ and non-shared polymorphisms for
+    species 2.</li>
+</ul>
+<p class="MsoNormal" style="margin-left:36.0pt;text-indent:-36.0pt">&nbsp;<o:p>
+</o:p>
+</p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-indent:-36.0pt">Note if
+there is not an LD measurement for a locus, -10<span style="mso-spacerun: yes">&nbsp;
+</span>is used.</p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-indent:-36.0pt">&nbsp;</p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-indent:-36.0pt">Note on
+simulations.</p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-indent:-36.0pt">&nbsp;</p>
+<p class="MsoNormal">The simulation results are sensitive to the amount of
+recombination. In the published descriptions of these simulations (Wang, Wakeley
+and Hey, 1997;&nbsp; Kliman et al., 2000)&nbsp; we used the gamma estimator of
+recombination (Hey and Wakeley, 1997).&nbsp; This estimator tends to have a bias
+such that the estimates are lower than the expected value of the
+parameter.&nbsp; The result of having lower recombination is to raise the
+variance of the observations (of exclusive, shared and fixed variants) and thus
+to broaden the distribution of test statitics of the fit of the model to the
+data.&nbsp; In this sense, the tests should be conservative.&nbsp; However this
+is not guaranteed, and users may want to exam the quality of the fit between the
+model and their data by considering a range of recombination rates.&nbsp;</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">Recombination rate estimates are sometime not available for
+both species.&nbsp; Also they are never available for the common ancestral
+species. Following is the method of assignment of population recombination
+rates:</p>
+<p class="MsoNormal" style="text-indent:0cm">- The program takes 4Nc1i as input
+(4Nc for species 1, locus i) and then sets</p>
+<p class="MsoNormal" style="text-indent:0cm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4Nc2i = 4Nc1i theta2/theta1</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4NcAi = 4Nc1i
+thetaA/theta1</p>
+<p class="MsoNormal" style="text-indent:0cm">-Obtaining<span style="mso-spacerun:
+yes">&nbsp; </span>4Nc1i depends on whether one has estimates for species 1 or
+species 2 or both.<span style="mso-spacerun: yes">&nbsp; </span>If only 4Nc1i is
+available, then that's it.<span style="mso-spacerun: yes">&nbsp; - </span>If
+only 4Nc2i is available, then 4Nc1i = 4Nc2i theta1/theta2.<span style="mso-spacerun:
+yes">&nbsp; </span>If both are available, then 4Nc1i = (4Nc1i + 4Nc2i
+theta1/theta2)/2.</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><span
+style="mso-spacerun: yes"> </span><a name=RunningtheProgram>Running the
+Program</a><span
+style='mso-fareast-font-family:"MS Mincho"'><span style="mso-spacerun:
+yes">              </span><a href="#Contents">Return to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-indent:0cm"><span style='mso-fareast-font-family:"MS Mincho"'>The
+program file should reside either in the same folder as the data file or in
+a folder automatically searched by the operating system.&nbsp; The program
+can be run using command line parameters, or by simply typing the name of the
+program ('wh').&nbsp; If command line parameters are not used, the program asks
+for the values of runtime parameters.</span></p>
+<p class="MsoNormal" style="text-indent:0cm">&nbsp;</p>
+<p class="MsoNormal" style="text-indent:0cm"><span style='mso-fareast-font-family:"MS Mincho"'> The user starts the
+program simply by going to the folder where the data file exists and typing
+the name of the program (e.g. 'sites') followed by the<span
+style="mso-spacerun: yes">  </span>enter key. The program asks several
+questions about the data file and the<span style="mso-spacerun: yes"> 
+</span>desired analysis. Nearly all commands and options can also be entered
+using command line parameters.</span></p>
+<p class="MsoNormal" style="text-indent:0cm">&nbsp;</p>
+<p class="MsoNormal" style="text-indent:0cm">The program can be started with or
+without the use of instructions at the command line.</p>
+<p class="MsoNormal" style="text-indent:0cm">&nbsp;</p>
+<p class="MsoNormal" style="text-indent:0cm">Without command line instructions -
+simply type ‘wh’ at the prompt.</p>
+<p class="MsoNormal" style="text-indent:0cm">The program will ask for basic
+information.</p>
+<p class="MsoNormal" style="text-indent:0cm">&nbsp;</p>
+<p class="MsoPlainText">On a PowerPC, clicking on the program icon opens a small
+window in which command line parameters can be entered<span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;MS Mincho&quot;">.&nbsp;
+The user can also just hit return at this point and the program will request
+runtime parameters.</span></p>
+<p class="MsoNormal" style="text-indent:0cm">&nbsp;</p>
+<p class="MsoNormal" style="text-indent:0cm">Command Line Parameters:</p>
+<p class="MsoNormal" style="text-indent:0cm">Type and enter&nbsp;</p>
+<p class="MsoNormal" style="text-indent:0cm">wh -d'datafilename' -r'resultsfilename'
+-N'numsims' -L'ldtype' -A'ranseed'</p>
+<p class="MsoNormal" style="text-indent:0cm">&nbsp;</p>
+<p class="MsoNormal" style="text-indent:0cm">Where:</p>
+<ul>
+  <li>
+    <p class="MsoNormal" style="text-indent:0cm">'datafilename' is the name of a
+    data file that is in the same folder as the program</li>
+  <li>
+    <p class="MsoNormal" style="text-indent:0cm">'resultsfilename' is the name
+    of the file that will be created to contain the results. The results file
+    will be generated with an extension of '.wh'</li>
+  <li>
+    <p class="MsoNormal" style="text-indent:0cm">'numsims'&nbsp; is an integer
+    of the the number of simulations to be run.&nbsp; Basic model fitting does
+    not require simulations. If&nbsp; this value is not zero or blank, the data
+    file must have the necessary information on recombination rates.</li>
+  <li>
+    <p class="MsoNormal" style="text-indent:0cm">'ldtype' tells the program what
+    type of linkage disequilibrium value to calculate.&nbsp; This option
+    requires that simulations be done, and that the data file include
+    information on recombination and observed LD values.&nbsp; 'ldtype' must
+    correspond to the measure of linkage disequilibrium used to generate the
+    datafile.&nbsp;&nbsp; 'ldtype' can take on the following values:</p>
+    <p class="MsoNormal" style="text-indent:0cm">&nbsp;
+    <ul>
+      <li>
+        <p class="MsoNormal" style="text-indent:0cm">'R'<span style="mso-spacerun: yes">&nbsp;
+        invokes</span> the correlation coefficient</li>
+      <li>
+        <p class="MsoNormal" style="text-indent:0cm">'S' in<span style="mso-spacerun: yes">vokes</span>
+        r^2, the square of the correlation coefficient</li>
+      <li>
+        <p class="MsoNormal">'D'<span style="mso-spacerun: yes"> invokes the
+        basic gametic disequilibrium measure D</span></li>
+      <li>
+        <p class="MsoNormal" style="text-indent:0cm">'P'<span style="mso-spacerun: yes">
+        invokes the D'&nbsp; which is equal to D/ Dmax, where Dmax is the
+        maximum possible value of D given the observed allele frequencies.</span></li>
+      <li>
+        <p class="MsoNormal" style="text-indent:0cm">'B'<span style="mso-spacerun: yes">&nbsp;
+        </span>invokes the absolute value of D, |D|</li>
+    </ul>
+    <p class="MsoNormal" style="text-indent:0cm"><span style="mso-spacerun: yes">&nbsp;</span></li>
+  <li>
+    <p class="MsoNormal" style="text-indent:0cm">'ranseed' is a random number
+    seed and is not generally required unless the user wants to repeat
+    simulations exactly.&nbsp;</li>
+</ul>
+
+<p class=MsoNormal><span
+style="mso-spacerun: yes">&nbsp;&nbsp; </span><span style='mso-fareast-font-family:
+"MS Mincho"'>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><a name=Output>Output</a><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">                          </span><a href="#Contents">Return
+to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal>Output is contained in the results file.&nbsp; There are
+three main sections:&nbsp; INPUT;&nbsp; MODEL FITTING RESULTS; and SIMULATION
+RESULTS.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>INPUT simply lists in tabular form the data in the input
+file.</p>
+
+<p class=MsoNormal>MODEL FITTING RESULTS lists the following:</p>
+
+<ul>
+  <li>
+    <p class="MsoNormal">Basic Parameter Estimates - these are the overall model
+    parameter estimates as described in Wang, Wakeley and Hey (1997)</li>
+  <li>
+    <p class="MsoNormal">Expected Polymorphism Levels - this table simply lists
+    the observed numbers of exclusive, shared and fixed polymorphisms together
+    with the expected numbers given the parameter estimates.</li>
+  <li>
+    <p class="MsoNormal">Other Calculations - including alternative time
+    parameterizations, and estimates of effective population size if the
+    optional parameters were provided at run time.</li>
+  <li>
+    <p class="MsoNormal">&nbsp;</li>
+</ul>
+<p class=MsoNormal>SIMULATION RESULTS lists the following:</p>
+
+<ul>
+  <li>
+    <p class="MsoNormal">The results of tests of the quality of fit of the
+    isolation model to the data.&nbsp; Two test statistics are used, the
+    chisquare (as described in Kliman et al., 2000)&nbsp; and the wh statistic
+    which is the original statistics described by Wang Wakeley and Hey (1997).</li>
+  <li>
+    <p class="MsoNormal">A table of parameter value estimates, together with
+    simulated 95% confidence intervals and means.&nbsp; The means are useful to
+    assess the bias of the parameter estimates.</li>
+  <li>
+    <p class="MsoNormal">A table of observed, and simulated mean levels of
+    exclusive, shared and fixed variants. This table should resemble the table
+    that compares observed and expected polymorphism levels.&nbsp;</li>
+  <li>
+    <p class="MsoNormal">Linkage Disequilibrium Analysis - several tables list
+    comparisons between observed levels of disequilibrium among shared
+    polymorphisms, among exclusive polymorphisms, and between shared and
+    exclusive polymorphisms.&nbsp;</li>
+</ul>
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes">&nbsp; </span>______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><span
+style="mso-spacerun: yes"> </span><a name=ProgramLimitations>Program
+Limitations</a><span
+style='mso-fareast-font-family:"MS Mincho"'><span style="mso-spacerun:
+yes">             </span><a href="#Contents">Return to Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________
+<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;</span></p>
+
+<p class=MsoNormal><span style="mso-fareast-font-family: MS Mincho">For
+simulations, the program can only handle a total sample size for each locus
+of&nbsp; 32.&nbsp; If the program is compiled under Microsoft Visual C++ (as the
+distributed Win32 version is) then it can makes use of a compiler extension and
+can handle total per locus sample sizes of 64.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style="mso-fareast-font-family: MS Mincho">For basic
+model fitting, without simulations, larger sample sizes can be used.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style="mso-fareast-font-family: MS Mincho">During
+simulations, recombination within a locus can occur only between sequence
+segments.&nbsp; The program has been compiled with 50 segments per sequence,
+which should be more than sufficient for most data sets. However it is possible
+that this will not be sufficient for loci with long sequences and high amounts
+of recombination.&nbsp;</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SITESHTMLSECTION><span style='mso-fareast-font-family:"MS Mincho"'><span
+style="mso-spacerun: yes"> </span><a name=LiteratureCited>Literature Cited</a><span
+style="mso-spacerun: yes">                </span><a href="#Contents">Return to
+Contents</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>_______________________<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>Hey,
+J., and J. Wakeley, 1997 A coalescent estimator of the population recombination
+rate. Genetics 145: 833-846.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Kliman, R. M., P. Andolfatto, J. A. Coyne, F. Depaulis, M.
+Kreitman et al., 2000 The population genetics of the origin
+and&nbsp;&nbsp;&nbsp;&nbsp; divergence of the <i>Drosophila simulans</i> complex
+species. Genetics 156: 1913-31.</p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Wakeley,
+J. and J. Hey. 1997 Estimating ancestral population parameters.<o:p></o:p>Genetics 145, 847-855.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"MS Mincho"'>Wang, R.
+L., J. Wakeley and J. Hey, 1997 Gene flow and natural selection&nbsp;<span
+style="mso-spacerun: yes"> </span>in the origin of <i> Drosophila
+pseudoobscura</i> and close relatives.<span
+style="mso-spacerun: yes"> </span>Genetics 147: 1091-106.<o:p></o:p></span></p>
+
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">This page was last changed <!--webbot bot="Timestamp"
+S-Type="EDITED" S-Format="%B %d, %Y" startspan -->February 04, 2004<!--webbot bot="Timestamp" endspan i-checksum="41404" -->
+</p>
+
+<!--msnavigation--></td></tr><!--msnavigation--></table></body>
+
+</html>
